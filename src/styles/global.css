@@ -300,12 +300,59 @@
         color: #143250;
         font-weight: 700;
         line-height: 1.2;
-        font-size: 30px !important;
+        font-size: 17px !important;
     }
 
     .head {
         margin-top: 45px !important;
     }
+
+    .col_side_content{
+        font-size: 10px !important;
+        margin-top: 0px !important;
+
+    }
+
+    .row_content.row {
+    padding: 10px 20px;
+    /* margin-top: 0px !important; */
+    
+    }
+
+    .head{
+        text-align: center;
+        margin-top: 15px !important;
+    }
+
+    .second-section{
+        text-align: center;
+    }
+
+    .col_heading_row{
+        text-align: center;
+    }
+
+    .col_heading_row_circle{
+        display: grid !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+
+    .consulting{
+        text-align: center !important;
+        margin-left: 0px !important;
+    }
+
+    .startup{
+        text-align: center !important;
+        margin-left: 0px !important;
+    }
+
+    .products{
+        text-align: center !important;
+        margin-left: 0px !important;
+    }
+
 
 
     /* home page mobile css ends */
