@@ -1,6 +1,6 @@
 ---
 title: second Beginnings
-date: "2015-05-28T22:40:32.169Z"
+date: "2015-06-27T14:40:32.169Z"
 description: manikanta SEO and Open Graph purposes, rather than the default generated excerpt. Simply add a description field to the frontmatter.
 ---
 

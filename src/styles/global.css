@@ -7,6 +7,14 @@
     top: 30px ;
 }
 
+/* css for blog page start */
+.blogRow{
+    padding: 0px 20px;
+  }
+/* css for blog page end */
+
+
+
 /* home page CSS starts */
 .maincontainer {
     padding-left: 80px !important;

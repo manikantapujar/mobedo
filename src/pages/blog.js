@@ -7,6 +7,10 @@ import Seo from "../components/seo"
 import Header from '../components/Header';
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+import '../styles/global.css'
+
 
 
 const BlogIndex = ({ data, location }) => {
@@ -34,12 +38,12 @@ const BlogIndex = ({ data, location }) => {
     <Layout location={location} title={siteTitle}>
       <Seo title="All posts" />
       <Bio />
-      <ol style={{ listStyle: `none` }}>
+      <Row className="blogRow" style={{ listStyle: `none` }}>
         {posts.map(post => {
           const title = post.frontmatter.title || post.fields.slug
 
           return (
-            <li key={post.fields.slug}>
+            <Col sm={4} className="blogCol" key={post.fields.slug}>
               <article
                 className="post-list-item"
                 itemScope
@@ -62,10 +66,10 @@ const BlogIndex = ({ data, location }) => {
                   />
                 </section>
               </article>
-            </li>
+            </Col>
           )
         })}
-      </ol>
+      </Row>
     </Layout>
     <Footer />
     </>

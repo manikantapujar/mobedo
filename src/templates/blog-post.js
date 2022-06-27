@@ -4,6 +4,10 @@ import { Link, graphql } from "gatsby"
 import Bio from "../components/bio"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
+import Header from '../components/Header';
+import Footer from "../components/Footer";
+import Navbar from "../components/Navbar";
+
 
 const BlogPostTemplate = ({ data, location }) => {
   const post = data.markdownRemark
@@ -11,6 +15,9 @@ const BlogPostTemplate = ({ data, location }) => {
   const { previous, next } = data
 
   return (
+    <>
+    <Header/>
+    <Navbar/>
     <Layout location={location} title={siteTitle}>
       <Seo
         title={post.frontmatter.title}
@@ -52,6 +59,12 @@ const BlogPostTemplate = ({ data, location }) => {
             )}
           </li>
           <li>
+          <Link to="/blog">
+                Visit To Blog
+              </Link>
+
+          </li>
+          <li>
             {next && (
               <Link to={next.fields.slug} rel="next">
                 {next.frontmatter.title} →
@@ -61,6 +74,9 @@ const BlogPostTemplate = ({ data, location }) => {
         </ul>
       </nav>
     </Layout>
+    <Footer/>
+    </>
+
   )
 }
 
