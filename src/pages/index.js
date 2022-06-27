@@ -40,7 +40,7 @@ export default function index() {
         <div className="col_side_heading ">
           <p className="head">Our expertise is our service.</p>
         </div>
-        <div className="col_side_content">
+        <div className="col_side_content second-section">
           <p>
             We are truth-tellers. We listen, ask the right questions, and elevate strategies to support your transformation.
           </p>
@@ -86,17 +86,17 @@ export default function index() {
       <div className="col_side_heading head text-center">
           <p>Our Offerings</p>
         </div>
-    <Col sm xs lg="2" className="col_heading_row  text-center">
+    <Col sm xs lg="2" className="col_heading_row_circle  text-center">
       <div className="circle ">
       <img className="bulb" src="../consulting.jpg" alt="this is innovation"></img>
       </div>
       <h3 className="consulting" >Consulting</h3>
     </Col>
-    <Col sm xs lg="2" className="col_heading_row">
+    <Col sm xs lg="2" className="col_heading_row_circle">
     <div className="circle"></div>
           <h3  className="startup">Start Up</h3>
     </Col>
-    <Col sm xs lg="2" className="col_heading_row">
+    <Col sm xs lg="2" className="col_heading_row_circle">
     <div className="circle"></div>
           <h3 className="products">Products</h3>
     </Col>
@@ -132,8 +132,8 @@ export default function index() {
         <p className=" text-center">
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto quibusdam, amet quasi saepe sapiente rem nemo dolores quos, libero quas corporis repellat sequi eos commodi magnam alias ex. Aliquam, esse.
         </p>
-        <Col sm className="col_heading_row ">
-          <div className="circle ">
+        <Col sm className="col_heading_row  col_heading_row_circle ">
+          <div className="circle   ">
             <img className="bulb" src="../bulb.png" alt="this is innovation"></img>
           </div>
           <h3 className="consulting" >INNOVATION</h3>
