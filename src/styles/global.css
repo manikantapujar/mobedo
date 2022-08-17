@@ -110,7 +110,9 @@
     margin-top: 52px;
     height: 100px;
     width: 100px;
+    display: none;
 }
+
 
 .thumb {
     margin-left: 48px;
