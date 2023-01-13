@@ -32,42 +32,33 @@ const AboutPage = () => {
             <img className="aboutus" src="../about-us.png" alt="this is Aboutus image"></img>
           </Col>
         </Row> */}
-        <Row className="row_content_aboutus font">
+
+        <Row>
+          <div className="col_side_heading text-center head">
+            <p>Why Mobedo</p>
+          </div>
+          <p className=" text-center">
+            <strong> MOBEDO </strong> Consulting was conceptualized as a response to our conversations with SME and Startup founders during the COVID pandemic. An unplanned, unexpected event that left every organism and organization unsure. As Design-Thinking proponents, empathy is at the core of our existence. We aim to truly understand the unmet needs and pain points of our clients, and work closely with them to develop tailored solutions that are both effective and compassionate.
+
+          </p>
+          <p className=" text-center">
+            Our commitment to making a positive impact is reflected in everything we do. Our name MOBEDO Consulting, signifies a promise to our clients and our collective resolve with striving to <b> DO MORE</b> for our clients, so they can <b> BE MORE</b>. Our commitment to doing more and being more extends beyond just our business. We also strive to make a positive impact in the communities in which we operate, through a variety of sustainability initiatives
+          </p>
+          <p className=" text-center">
+            The essence of MOBEDO – Our principles, beliefs, philosophies of values
+          </p>
+        </Row>
+
+        <Row className="row_content ">
           <Col>
-            <img className="ourmission" src="../our-mission.png" alt="this is Aboutus image"></img>
-          </Col>
-          <Col className="col_side_content">
-            <div className="partion ">
-              <img className="yellowdot1" src="../yellowdots.svg" alt="this is innovation"></img>
-            </div>
             <h2>Our Mission</h2>
             <p className="aboutus_secondrow"> We continually strive to <b> DO MORE</b>, so our clients, our people and society
               can <b> BE MORe</b></p>
-          </Col>
-        </Row>
-        <Row className="row_content ">
-          <Col>
-            <div className="partion ">
-              <img className="yellowdot2" src="../yellowdots.svg" alt="this is innovation"></img>
-            </div>
             <h2>Our Vission</h2>
             <p className="aboutus_secondrow">To be recognized as a trusted and efficient partner to our clients and, craft
               long standing relationships, while maintaining uncompromising principles as we
               grow.
               .</p>
-          </Col>
-          <Col className="col_side_content">
-            <img className="ourvision" src="../our-vision.png" alt="this is Aboutus image"></img>
-          </Col>
-        </Row>
-        <Row className="row_content ">
-          <Col>
-            <img className="ourvision" src="../our-vision.png" alt="this is Aboutus image"></img>
-          </Col>
-          <Col className="col_side_content">
-            <div className="partion ">
-              <img className="yellowdot2" src="../yellowdots.svg" alt="this is innovation"></img>
-            </div>
             <h2>Our Values</h2>
             <ul className="values_li">
               <li> <b> Karma:</b> We believe in the power of positive actions, and strive to make a positive impact through our work</li>
@@ -83,13 +74,14 @@ const AboutPage = () => {
                 authentic in all of our interactions</li>
             </ul>
           </Col>
+
         </Row>
-        <Row>
+        {/* <Row>
           <div className="about-heading text-center ">
             <h1>Our Team</h1>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates mollitia dignissimos dolore unde ad alias voluptatibus vero eveniet neque dicta, perferendis perspiciatis, adipisci iure porro possimus, officiis omnis quia a.</p>
           </div>
-        </Row>
+        </Row> */}
         {/* <Row className="banner font">
           <Col>
             <div >
@@ -115,21 +107,7 @@ const AboutPage = () => {
             </Row>
           </Col>
         </Row> */}
-        <Row>
-          <div className="col_side_heading text-center head">
-            <p>Why Mobedo</p>
-          </div>
-          <p className=" text-center">
-            <strong> MOBEDO </strong> Consulting was conceptualized as a response to our conversations with SME and Startup founders during the COVID pandemic. An unplanned, unexpected event that left every organism and organization unsure. As Design-Thinking proponents, empathy is at the core of our existence. We aim to truly understand the unmet needs and pain points of our clients, and work closely with them to develop tailored solutions that are both effective and compassionate.
 
-          </p>
-          <p className=" text-center">
-            Our commitment to making a positive impact is reflected in everything we do. Our name MOBEDO Consulting, signifies a promise to our clients and our collective resolve with striving to <b> DO MORE</b> for our clients, so they can <b> BE MORE</b>. Our commitment to doing more and being more extends beyond just our business. We also strive to make a positive impact in the communities in which we operate, through a variety of sustainability initiatives
-          </p>
-          <p className=" text-center">
-            The essence of MOBEDO – Our principles, beliefs, philosophies of values
-          </p>
-        </Row>
       </Container>
 
 

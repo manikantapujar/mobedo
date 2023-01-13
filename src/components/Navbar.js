@@ -31,11 +31,11 @@ function Navitem() {
          <Nav className='navitems'>
          <Link to="/"><Nav  className='navlist'  >Home</Nav></Link>
            <Link to="/about"><Nav className='navlist' >About us</Nav></Link>
-           <NavDropdown  className='navlist' title="Services" id="collasible-nav-dropdown">
-             <NavDropdown.Item to="#action/3.1">Services1</NavDropdown.Item>
-             <NavDropdown.Item to="#action/3.2">Services2 </NavDropdown.Item>
-             <NavDropdown.Item to="#action/3.3">Services3</NavDropdown.Item>
-             <NavDropdown.Item to="#action/3.4"> Services4</NavDropdown.Item>
+           <NavDropdown  className='navlist' title="Our Offerings" id="collasible-nav-dropdown">
+             <NavDropdown.Item to="#action/3.1">Strategy</NavDropdown.Item>
+             <NavDropdown.Item to="#action/3.2">Technology  </NavDropdown.Item>
+             <NavDropdown.Item to="#action/3.3">Digital Transformation</NavDropdown.Item>
+             <NavDropdown.Item to="#action/3.4"> Shared Services</NavDropdown.Item>
            </NavDropdown>
            <Link to="/careers"><Nav className='navlist' >Careers</Nav></Link>
            <Link to="/blog"><Nav  className='navlist' > Blog</Nav></Link>
