@@ -38,7 +38,7 @@ const AboutPage = () => {
             <p>Why Mobedo</p>
           </div>
           <p className=" text-center">
-            <strong> MOBEDO </strong> Consulting was conceptualized as a response to our conversations with SME and Startup founders during the COVID pandemic. An unplanned, unexpected event that left every organism and organization unsure. As Design-Thinking proponents, empathy is at the core of our existence. We aim to truly understand the unmet needs and pain points of our clients, and work closely with them to develop tailored solutions that are both effective and compassionate.
+            <strong>MOBEDO </strong> Consulting was conceptualized as a response to our conversations with SME and Startup founders during the COVID pandemic. An unplanned, unexpected event that left every organism and organization unsure. As Design-Thinking proponents, empathy is at the core of our existence. We aim to truly understand the unmet needs and pain points of our clients, and work closely with them to develop tailored solutions that are both effective and compassionate.
 
           </p>
           <p className=" text-center">
