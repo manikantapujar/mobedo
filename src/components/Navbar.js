@@ -32,10 +32,10 @@ function Navitem() {
          <Link to="/"><Nav  className='navlist'  >Home</Nav></Link>
            <Link to="/about"><Nav className='navlist' >About us</Nav></Link>
            <NavDropdown  className='navlist' title="Our Offerings" id="collasible-nav-dropdown">
-             <NavDropdown.Item to="#action/3.1">Strategy</NavDropdown.Item>
-             <NavDropdown.Item to="#action/3.2">Technology  </NavDropdown.Item>
-             <NavDropdown.Item to="#action/3.3">Digital Transformation</NavDropdown.Item>
-             <NavDropdown.Item to="#action/3.4"> Shared Services</NavDropdown.Item>
+           <NavDropdown.Item><Link to='/starategy'> Strategy</Link></NavDropdown.Item>
+             <NavDropdown.Item ><Link to='/technology'>Technology</Link></NavDropdown.Item>
+             <NavDropdown.Item><Link to='/digital_transformation'>Digital Transformation</Link></NavDropdown.Item>
+             <NavDropdown.Item><Link to='/shared_services'>Shared Services</Link></NavDropdown.Item>
            </NavDropdown>
            <Link to="/careers"><Nav className='navlist' >Careers</Nav></Link>
            <Link to="/blog"><Nav  className='navlist' > Blog</Nav></Link>

@@ -291,7 +291,23 @@ font-size: 14px;
 .openingRow.row {
     gap: 5%;
 }
+.strategy_li{
+    margin-top: 9%;
+    margin-left: 100px
+}
+.startegy_page .ctitle{
+    font-size: 28px;
+    text-align: start;
+}
+.startegy_page .cbodyo{
+    font-size: 18px;
+    text-align: start;
 
+
+}
+.startegy_page{
+    margin-top: 30px;
+}
 /* end of career page */
 @media(max-width:767px) {
 
