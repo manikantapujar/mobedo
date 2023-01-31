@@ -10,10 +10,10 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 
 function Navitem() {
   return (
-    
-     <Navbar collapseOnSelect expand="lg" bg="#ffffff"  variant="light" className="maincontainer sticky-top">
-     <Container fluid className='Navbarpage'>
-     <Link to="/">
+
+    <Navbar collapseOnSelect expand="lg" bg="#ffffff" variant="light" className="maincontainer sticky-top">
+      <Container fluid className='Navbarpage'>
+        <Link to="/">
           <Navbar.Brand >
             <img src="/mobedologo1.jpeg"
               width="150px"
@@ -23,27 +23,27 @@ function Navitem() {
             />
           </Navbar.Brand>
         </Link>
-       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-       <Navbar.Collapse id="responsive-navbar-nav">
-         <Nav className="me-auto">
-           
-         </Nav>
-         <Nav className='navitems'>
-         <Link to="/"><Nav  className='navlist'  >Home</Nav></Link>
-           <Link to="/about"><Nav className='navlist' >About us</Nav></Link>
-           <NavDropdown  className='navlist' title="Our Offerings" id="collasible-nav-dropdown">
-           <NavDropdown.Item><Link to='/starategy'> Strategy</Link></NavDropdown.Item>
-             <NavDropdown.Item ><Link to='/technology'>Technology</Link></NavDropdown.Item>
-             <NavDropdown.Item><Link to='/digital_transformation'>Digital Transformation</Link></NavDropdown.Item>
-             <NavDropdown.Item><Link to='/shared_services'>Shared Services</Link></NavDropdown.Item>
-           </NavDropdown>
-           <Link to="/careers"><Nav className='navlist' >Careers</Nav></Link>
-           <Link to="/blog"><Nav  className='navlist' > Blog</Nav></Link>
-           <Link to="/contact"><Nav className='navlist'   > <Button variant="warning">CONTACT NOW</Button>{' '} </Nav></Link>
-         </Nav>
-       </Navbar.Collapse>
-     </Container>
-   </Navbar>
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Collapse id="responsive-navbar-nav">
+          <Nav className="me-auto">
+
+          </Nav>
+          <Nav className='navitems'>
+            <Link to="/"><Nav className='navlist'  >Home</Nav></Link>
+            <Link to="/about"><Nav className='navlist' >About us</Nav></Link>
+            <NavDropdown className='navlist' title="Our Offerings" id="collasible-nav-dropdown">
+              <NavDropdown.Item><Link to='/starategy'> Strategy</Link></NavDropdown.Item>
+              <NavDropdown.Item ><Link to='/technology'>Technology</Link></NavDropdown.Item>
+              <NavDropdown.Item><Link to='/digital_transformation'>Digital Transformation</Link></NavDropdown.Item>
+              <NavDropdown.Item><Link to='/shared_services'>Shared Services</Link></NavDropdown.Item>
+            </NavDropdown>
+            <Link to="/careers"><Nav className='navlist' >Careers</Nav></Link>
+            <Link to="/blog"><Nav className='navlist' > Blog</Nav></Link>
+            <Link to="/contact"><Nav className='navlist'   > <Button variant="warning">CONTACT NOW</Button>{' '} </Nav></Link>
+          </Nav>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
   )
 }
 export default Navitem;

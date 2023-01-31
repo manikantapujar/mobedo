@@ -17,18 +17,68 @@ export default function index() {
     <>
       <Header />
       <Navbar />
-      <Container fluid className="maincontainer font">
+      <Container fluid className="maincontainer font homepage">
         <Row className="row_content">
+          <img src="homepage/p1.png" alt="" />
+          <Col className="col_side_content">
+            <p>Growth and transformation are ongoing processes and nothing is ever truly static. We understand that businesses and individuals face new opportunities and challenges every day and that it's crucial to adapt and evolve to stay ahead. We work alongside our clients in navigating this constant change and to unlock their potential for sustainable growth. </p>
+            <Link to="about"><Button className="button" variant="outline-primary">About us</Button>{' '}</Link>
+          </Col>
           <Col>
             <div className="col_side_heading">
-              <p>Facilitating Growth. One Conversation at a time.</p>
+              <p>BEING TO BECOMING The <span> MOBEDO</span> Promise .</p>
+            </div>
+          </Col>
+
+        </Row>
+        <Row className="row_content">
+          <img src="homepage/p2.png" alt="" />
+          <h2 className="p_h_title">Our Proposition</h2>
+          <ul>
+            <li>A <b> consecrated dedication</b> to working alongside our clients on their technology, strategy, and innovation needs</li>
+            <li>A multidisciplinary team that goes a long way back with <b> mutual respect </b> for each other and with a balanced depth of expertise and experience that complements each others skills well</li>
+            <li>A strategic ally for driving growth through innovative and data-driven solutions. We <b>break-free </b>from traditional consulting methods to unleash our clients' full potential</li>
+            <li>An environment where engaged minds and subject matter experts work creatively and collaboratively to drive results. We welcome our clients, partners, and colleagues to join us in tackling challenges and turning ideas into action and drive <b> meaningful impact</b></li>
+          </ul>
+
+        </Row>
+
+        <Row className="row_content">
+          <img src="homepage/p3.png" alt="" />
+          <h2 className="p_h_title">Our Practice Areas</h2>
+          <Col>
+            <div className="col_side_heading">
+              <p>Harmonious Solutions.</p>
             </div>
           </Col>
           <Col className="col_side_content">
-            <p>MOBEDO Consulting is a management consulting firm that is designed to transform businesses through a proven conversational consultative approach. Trust us to guide you in understanding your challenges, setting clear goals and creating a roadmap for success through our personalized solutions</p>
-            {/* <Link to="about"><Button className="button" variant="outline-primary">About us</Button>{' '}</Link> */}
+            <p>There is an unusual coordination between entities of different types. The emergent is distinct from its component parts and cannot be reduced to the mere sum or difference of these parts. </p>
           </Col>
+          
         </Row>
+
+        <div className="row mt-2">
+          <div className="col-md-4">
+          <div className="text-center">
+                <img src="homepage/p4.png" alt=""/>
+                <p>STRATEGY CONSULTING</p>
+              </div>
+          </div>
+          <div className="col-md-4">
+          <div className="text-center">
+                <img src="homepage/p5.png" alt=""/>
+                <p>TECHNOLOGY CONSULTING</p>
+              </div>
+          </div>
+          <div className="col-md-4">
+          <div className="text-center">
+                <img src="homepage/p6.png" alt=""/>
+                <p>DIGITAL TRANSFORMATION</p>
+              </div>
+          </div>
+        </div>
+
+        
         {/* <Row>
         <Col>
           <video className="embed-responsive embed-responsive-16by9 video_content" controls>
@@ -37,7 +87,7 @@ export default function index() {
         </Col>
       </Row> */}
         <Row>
-          <div className="col_side_heading ">
+          {/* <div className="col_side_heading ">
             <p className="head">Unleashing Growth.</p>
           </div>
           <div className="col_side_content second-section">
@@ -50,7 +100,7 @@ export default function index() {
               Lets have a conversation<br />
               Email  Phone Social
             </p>
-          </div>
+          </div> */}
           {/* <Col sm className="col_heading_row">
           <h3>Practices</h3>
           <p className="col_content">What we know.</p>
