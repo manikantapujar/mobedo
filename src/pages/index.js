@@ -19,7 +19,7 @@ export default function index() {
       <Navbar />
       <Container fluid className="maincontainer font homepage">
         <Row className="row_content">
-          <img src="homepage/p1.png" alt="" />
+          <img src="/p1.png" alt="" />
           <Col className="col_side_content">
             <p>Growth and transformation are ongoing processes and nothing is ever truly static. We understand that businesses and individuals face new opportunities and challenges every day and that it's crucial to adapt and evolve to stay ahead. We work alongside our clients in navigating this constant change and to unlock their potential for sustainable growth. </p>
             <Link to="about"><Button className="button" variant="outline-primary">About us</Button>{' '}</Link>
@@ -32,7 +32,7 @@ export default function index() {
 
         </Row>
         <Row className="row_content">
-          <img src="homepage/p2.png" alt="" />
+          <img src="/p2.png" alt="" />
           <h2 className="p_h_title">Our Proposition</h2>
           <ul>
             <li>A <b> consecrated dedication</b> to working alongside our clients on their technology, strategy, and innovation needs</li>
@@ -44,7 +44,7 @@ export default function index() {
         </Row>
 
         <Row className="row_content">
-          <img src="homepage/p3.png" alt="" />
+          <img src="/p3.png" alt="" />
           <h2 className="p_h_title">Our Practice Areas</h2>
           <Col>
             <div className="col_side_heading">
@@ -60,19 +60,19 @@ export default function index() {
         <div className="row mt-2">
           <div className="col-md-4">
           <div className="text-center">
-                <img src="homepage/p4.png" alt=""/>
+                <img src="/p4.png" alt=""/>
                 <p>STRATEGY CONSULTING</p>
               </div>
           </div>
           <div className="col-md-4">
           <div className="text-center">
-                <img src="homepage/p5.png" alt=""/>
+                <img src="/p5.png" alt=""/>
                 <p>TECHNOLOGY CONSULTING</p>
               </div>
           </div>
           <div className="col-md-4">
           <div className="text-center">
-                <img src="homepage/p6.png" alt=""/>
+                <img src="/p6.png" alt=""/>
                 <p>DIGITAL TRANSFORMATION</p>
               </div>
           </div>
