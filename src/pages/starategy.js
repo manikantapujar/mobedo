@@ -11,8 +11,93 @@ export default function startergy() {
         <>
             <Header />
             <Navbar />
-            <Container fluid className='careerspage'>
-                <Row>
+            <Container fluid className='careerspage startegy_page'>
+                <Row className="row_content">
+                    <img src="/p7.png" alt="" />
+                    <h1 className="p_h_title">Strategy Consulting</h1>
+                    <Col>
+                        <div className="col_side_heading">
+                            <p>Strategies that Deliver Results.</p>
+                        </div>
+                    </Col>
+                    <Col className="col_side_content">
+                        <p>Customized, comprehensive strategies that drive sustainable growth, improve performance and create a competitive edge to helping our clients navigate the ever-changing business landscape. </p>
+                    </Col>
+                </Row>
+
+                <div className="row mt-3">
+                    <div className="col-md-6">
+                        <h2 className="col_side_heading">Core Business Transformation</h2>
+                        <h6>Innovating for growth, transforming for success</h6>
+                        <p>Ever-changing business environment & conditions makes it essential for companies to change their trajectory, improve their performance and reinvent to stay ahead of the curve. MOBEDO’s team of strategists bring their expertise, tools and materials to support your executive teams to conceptualize, plan and mobilize change across all levels of the organizations. </p>
+                    </div>
+                    <div className="col-md-6">
+                        <img src="/p8.png" alt="" />
+                    </div>
+                </div>
+                <div className="row mt-3">
+                    <div className="col-md-6">
+                        <img src="/p9.png" alt="" />
+                    </div>
+                    <div className="col-md-6">
+                        <h2 className="col_side_heading">Branding, Positioning & Messaging</h2>
+                        <h6>Defining your brand, communicating your value</h6>
+                        <p>Differentiate yourself in a crowded market with a strong brand strategy. We help companies increase customer demand by developing a unique and customer-aligned strategy that leverages their strengths. </p>
+                    </div>
+
+                </div>
+                <div className="row mt-3">
+                    <div className="col-md-6">
+                        <h2 className="col_side_heading">Marketing & Go-To-Market Strategy</h2>
+                        <h6>Bringing your value to market, driving growth through strategy </h6>
+                        <p>Maintaining revenue growth in an ever-changing market is a challenge, but it can be met by having the right go-to-market strategy in place and effectively implementing it. Our expert strategists help you identify market opportunities, optimize resource deployment, and achieve sustained outstanding results. </p>
+                    </div>
+                    <div className="col-md-6">
+                        <img src="/p10.png" alt="" />
+                    </div>
+                </div>
+                <div className="row mt-3">
+                    <div className="col-md-6">
+                        <img src="/p11.png" alt="" />
+                    </div>
+                    <div className="col-md-6">
+                        <h2 className="col_side_heading">Innovation Strategy</h2>
+                        <h6>Innovating for tomorrow, leading the way today </h6>
+                        <p>Avoid innovation pitfalls with MOBEDO's strategy-led, action-biased and agile approach. Whether it's in consumer products or B2B, product, service or business model, we collaborate closely with our clients to enhance their innovation system and make innovation happen.</p>
+                    </div>
+                </div>
+                <div className="row mt-3">
+                    <div className="col-md-6">
+                        <h2 className="col_side_heading">Business Strategy Development</h2>
+                        <h6>Business Strategy developed to help you navigate the path to success</h6>
+                        <p>Achieve your business goals with our expert strategy development consulting. We work with you to create a custom plan that takes into account your unique needs & objectives and guides you on the path to success.</p>
+                    </div>
+                    <div className="col-md-6">
+                        <img src="/p12.png" alt="" />
+                    </div>
+                </div>
+                <h5 className="our_team mt-3">Our Team</h5>
+                <div className="row ">
+                    <div className="col-md-3">
+                        <div className="img_row_team">
+                        <img src="/t1.jpg" alt=""/>
+                        </div>
+                        <h5>Anup Puthan</h5>
+                    </div>
+                    <div className="col-md-3">
+                        <div className="img_row_team">
+                        <img src="/t2.jpg" alt=""/>
+                        </div>
+                        <h5>Gaurav Bhaskar</h5>
+                    </div>
+                    <div className="col-md-3">
+                        <div className="img_row_team">
+                        <img src="/t3.jpg" alt=""/>
+                        </div>
+                        <h5>Arvind Maheswaram</h5>
+                    </div>
+                </div>
+                {/* <Row>
                     <Col>
                         <h1 className='ctitle'>
                             STRATEGY
@@ -30,8 +115,8 @@ export default function startergy() {
                             <li><a href="#section5">Business Strategy Development</a></li>
                         </ul>
                     </Col>
-                </Row>
-                <Row className="startegy_page">
+                </Row> */}
+                {/* <Row className="startegy_page">
                     <div id="section1">
                         <h1 className='ctitle'>
                             Core Business Transformation
@@ -73,7 +158,7 @@ export default function startergy() {
                             Define vision, mission, and goals, and creating a plan to achieve them.
                         </p>
                     </div>
-                </Row>
+                </Row> */}
             </Container>
             <Footer />
         </>

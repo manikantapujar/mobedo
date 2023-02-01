@@ -311,11 +311,31 @@ font-size: 14px;
 .ul_img_cont li{
     display: inline-block;
 }
-.startegy_page{
-    margin-top: 30px;
+.startegy_page img{
+width: 100%;
 }
 .homepage img{
     width: 100%;
+}
+.startegy_page h6{
+    color: #42e742;
+    font-size: 18px;
+}
+.startegy_page h2{
+    color: #214e8f;
+}
+.img_row_team{
+    background: #0047ab;
+    margin-right: 15px;
+}
+.img_row_team img{
+    margin-left: 20px;
+    height: 300px;
+}
+h5.our_team{
+    font-size: 24px;
+    color: #0047ab;
+    font-weight: 700;
 }
 .p_h_title{
     position: relative;
