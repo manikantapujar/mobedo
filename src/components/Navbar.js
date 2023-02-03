@@ -17,7 +17,7 @@ function Navitem() {
           <Navbar.Brand >
             <img src="/mobedologo1.jpeg"
               width="150px"
-              height="100px"
+              height="80px"
               className="d-inline-block align-top"
               alt="React Bootstrap logo"
             />
@@ -31,7 +31,7 @@ function Navitem() {
           <Nav className='navitems'>
             <Link to="/"><Nav className='navlist'  >Home</Nav></Link>
             <Link to="/about"><Nav className='navlist' >About us</Nav></Link>
-            <NavDropdown className='navlist' title="Our Offerings" id="collasible-nav-dropdown">
+            <NavDropdown className='navlist' title="Services" id="collasible-nav-dropdown">
               <NavDropdown.Item><Link to='/starategy'> Strategy</Link></NavDropdown.Item>
               <NavDropdown.Item ><Link to='/technology'>Technology</Link></NavDropdown.Item>
               <NavDropdown.Item><Link to='/digital_transformation'>Digital Transformation</Link></NavDropdown.Item>

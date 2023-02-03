@@ -10,7 +10,7 @@ import Col from 'react-bootstrap/Col';
 export default function careers() {
     return (
         <>
-            <Header />
+            {/* <Header /> */}
             <Navbar />
             <Container fluid className='careerspage'>
                 <h1 className='ctitle'>

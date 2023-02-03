@@ -9,10 +9,10 @@ import Col from 'react-bootstrap/Col';
 export default function startergy() {
     return (
         <>
-            <Header />
+            {/* <Header /> */}
             <Navbar />
-            <Container fluid className='careerspage startegy_page'>
-                <Row className="row_content">
+            <Container fluid className=' startegy_page'>
+                <Row className="row_content mt-0">
                     <img src="/p7.png" alt="" />
                     <h1 className="p_h_title">Strategy Consulting</h1>
                     <Col>
@@ -80,21 +80,23 @@ export default function startergy() {
                 <div className="row ">
                     <div className="col-md-3">
                         <div className="img_row_team">
-                        <img src="/t1.jpg" alt=""/>
+                            <img src="/t1.jpg" alt="" />
                         </div>
                         <h5>Anup Puthan</h5>
                     </div>
                     <div className="col-md-3">
                         <div className="img_row_team">
-                        <img src="/t2.jpg" alt=""/>
+                            <img src="/t2.jpg" alt="" />
                         </div>
-                        <h5>Gaurav Bhaskar</h5>
+                        <h5>Arvind Maheswaram</h5>
+
                     </div>
                     <div className="col-md-3">
                         <div className="img_row_team">
-                        <img src="/t3.jpg" alt=""/>
+                            <img src="/t3.jpg" alt="" />
                         </div>
-                        <h5>Arvind Maheswaram</h5>
+                        <h5>Gaurav Bhaskar</h5>
+
                     </div>
                 </div>
                 {/* <Row>

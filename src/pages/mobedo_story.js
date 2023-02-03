@@ -7,7 +7,7 @@ import '../styles/global.css';
 export default function mobedostory(){
     return(
         <>
-        <Header />
+        {/* <Header /> */}
       <Navbar />
 
         <Container fluid className="maincontainer font">

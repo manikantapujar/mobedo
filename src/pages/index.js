@@ -15,7 +15,6 @@ import Header from "../components/Header";
 export default function index() {
   return (
     <>
-      <Header />
       <Navbar />
       <Container fluid className="maincontainer font homepage">
         <Row className="row_content">

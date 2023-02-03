@@ -9,10 +9,88 @@ import Col from 'react-bootstrap/Col';
 export default function sharedservices() {
     return (
         <>
-            <Header />
+            {/* <Header /> */}
             <Navbar />
-            <Container fluid className='careerspage'>
-                <Row>
+            <Container fluid className='startegy_page'>
+            <Row className="row_content mt-0">
+                    <img src="/p20.png" alt="" />
+                    <h1 className="p_h_title">Shared Services</h1>
+                    <Col>
+                        <div className="col_side_heading">
+                            <p>Efficiency at Scale: Unlocking the Power of Shared Services</p>
+                        </div>
+                    </Col>
+                    <Col className="col_side_content">
+                        <p>MOBEDO expertise and experience offering shared services will help businesses streamline processes, reduce costs, and improve efficiency by centralizing and standardizing common functions across the organization. </p>
+                    </Col>
+                </Row>
+
+                <div className="row mt-3">
+                    <div className="col-md-6">
+                        <h2 className="col_side_heading">Co-Founder-As-a-Service</h2>
+                        {/* <h6>Innovating for growth, transforming for success</h6> */}
+                        <p>Our team of experts has a proven track record of helping startups succeed. We offer market research, business plan development, financial modeling, and operational support to help you validate your idea, secure funding, and scale your business. Let us use our expertise and resources to help you achieve your goals. </p>
+                    </div>
+                    <div className="col-md-6">
+                        <img src="/p21.png" alt="" />
+                    </div>
+                </div>
+                <div className="row mt-3">
+                    <div className="col-md-6">
+                        <img src="/p22.png" alt="" />
+                    </div>
+                    <div className="col-md-6">
+                        <h2 className="col_side_heading">MVP- As-a-Service</h2>
+                        {/* <h6>Defining your brand, communicating your value</h6> */}
+                        <p>Minimize risk and cost while gaining valuable market insights by developing and testing an MVP with our team of experts. We'll help you define and build a minimum viable product that accurately represents your idea and provide feedback and guidance to iterate and improve based on real data and customer feedback.</p>
+                    </div>
+
+                </div>
+                <div className="row mt-3">
+                    <div className="col-md-6">
+                        <h2 className="col_side_heading">Innovation-As-A-Service</h2>
+                        {/* <h6>Bringing your value to market, driving growth through strategy </h6> */}
+                        <p>Stay ahead of the competition with our innovation as a service offering. Our team of experts provides access to the tools, resources, and expertise you need to drive continuous innovation and growth. We'll help you identify opportunities, develop and test new ideas, and implement successful innovation programs that drive business value and competitive advantage.</p>
+                    </div>
+                    <div className="col-md-6">
+                        <img src="/p23.png" alt="" />
+                    </div>
+                </div>
+                <div className="row mt-3">
+                    <div className="col-md-6">
+                        <img src="/p24.png" alt="" />
+                    </div>
+                    <div className="col-md-6">
+                        <h2 className="col_side_heading">Testing-as-a-Service</h2>
+                        {/* <h6>Innovating for tomorrow, leading the way today </h6> */}
+                        <p>Ensure the quality and reliability of your products and systems with our testing as a service offering. Our team of experts provides a range of testing services, including functional, performance, and security testing. We'll help you define and implement a comprehensive testing strategy that meets your needs and ensures your products are ready for market.</p>
+                    </div>
+                </div>
+                
+                <h5 className="our_team mt-3">Our Team</h5>
+                <div className="row ">
+                    <div className="col-md-3">
+                        <div className="img_row_team">
+                        <img src="/t1.jpg" alt=""/>
+                        </div>
+                        <h5>Anup Puthan</h5>
+                    </div>
+                    <div className="col-md-3">
+                        <div className="img_row_team">
+                        <img src="/t2.jpg" alt=""/>
+                        </div>
+                        <h5>Arvind Maheswaram</h5>
+
+                    </div>
+                    <div className="col-md-3">
+                        <div className="img_row_team">
+                        <img src="/t3.jpg" alt=""/>
+                        </div>
+                        <h5>Gaurav Bhaskar</h5>
+
+                    </div>
+                </div>
+                {/* <Row>
                     <Col>
                         <h1 className='ctitle'>
                             SHARED SERVICES
@@ -63,7 +141,7 @@ export default function sharedservices() {
                             Testing as a service helps businesses ensure the quality and reliability of their products and systems by providing a range of testing services, including functional testing, performance testing, security testing, and more. Our team of experts can help you define and implement a comprehensive testing strategy that meets your business needs and goals, and ensure that your products and systems are ready for market.
                         </p>
                     </div>
-                </Row>
+                </Row> */}
             </Container>
             <Footer />
         </>

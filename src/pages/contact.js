@@ -14,7 +14,7 @@ import Image from 'react-bootstrap/Image'
 export default function contact() {
     return (
         <>
-            <Header />
+            {/* <Header /> */}
             <Navbar />
             <Container fluid className="maincontainer contactpage"  >
 
