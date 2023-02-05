@@ -10,112 +10,150 @@ import Col from 'react-bootstrap/Col';
 export default function footer() {
     return (
 
-        <Navbar className='footerbg'>
-            <Container fluid className="" >
+        <div className='footerbg'>
 
-                <Row>
-                    <Col>
-                        <Link to="/">
-                            <Navbar.Brand  >
-                                {/* <img src="/mobedologo1.jpeg"
-                                    width="150px"
-                                    height="100px"
-                                    className="d-inline-block align-top footerlogo"
-                                    alt="React Bootstrap logo"
-                                /> */}
-                                <p className="logo">MOBEDO</p>
-                            </Navbar.Brand>
-                        </Link>
-                    </Col>
-                </Row>
-                <Row className='linkblock footerpage'>
-                    <Col sm={6}>
-                        <div className='linkdiv' >
-                            <h5 className='links'>
-                                Service Areas
-                            </h5>
-                            <ul className='links'>
-                                <li>
-                                    STRATEGY PRACTICE
-                                </li>
-                                <li>
-                                    TECHNOLOGY PRACTICE
-                                </li>
-                                <li>DIGITAL TRANSFORMATION</li>
-                                <li>SHARED SERVICES</li>
-                            </ul>
+            <div className='row'>
+                <div className='col-md-5'>
+                    <p className="logo mb-0">MOBEDO</p>
+                    <div className='row'>
+                        <div class="col-md-4">
+
                         </div>
-                    </Col>
-                    <Col sm={6}>
-                        <div className='servicediv' >
-                            <h5 className='slinks'>
-                                Industries
-                            </h5>
-                            <ul className='slinks'>
-                                <li>
-                                    Healthcare Lifesciences
-                                </li>
-                                <li>
-                                    BFSI
-                                </li>
-                                <li>
-                                    Consumer & Retail
-                                </li>
-                                <li>
-                                    Manufacturing
-                                </li>
-                                <li>
-                                    Travel & Hospitality
-                                </li>
-                                <li>
-                                    Public Sector
-                                </li>
-                            </ul>
+                        <div className='col-md-8 email_phone'>
+                            <p>01897465226</p>
+                            <p>info@mobedoconsulting.com</p>
                         </div>
-                    </Col>
-                </Row>
+                <p className='firm_member'>Member firm of the MOBEDO Group</p>
 
-
-                <Navbar.Toggle />
-                <Navbar.Collapse className="justify-content-end socialmediafooter footerpage">
-                    <Navbar className='socialmediafooter' >
-                        <div className='find'>
-                            <h6 className='findhead'>Find us on</h6>
-                            <ul className='socialmediaicons'>
-                                <li>
-
-                                </li>
-                                <li>
-                                    <div>
-                                        <img src="/fb2.png" width="25px" height="25px" alt="" />
-                                    </div>
-                                </li>
-                                <li>
-                                    <div>
-                                        <img src="/linkedin.png" width="20px" height="20px" alt="" />
-                                    </div>
-                                </li>
-                                <li>
-                                    <div>
-                                        <img src="/twitter.png" width="25px" height="25px" alt="" />
-                                    </div>
-                                </li>
-                                <li>
-                                    <div>
-                                        <img src="/youtube1.png" width="25px" height="25px" alt="" />
-                                    </div>
-                                </li>
-                            </ul>
+                    </div>
+                </div>
+                <div className='col-md-7'>
+                    <div className='row'>
+                        <div className='col-md-4'>
+                            <div className='linkdiv' >
+                                <h5 className='links'>
+                                    Service Areas
+                                </h5>
+                                <ul className='links_ul'>
+                                    <li>
+                                    <Link to='/starategy'>
+                                        STRATEGY PRACTICE
+                                        </Link>
+                                    </li>
+                                    <li>
+                                    <Link to='/technology'>
+                                        TECHNOLOGY PRACTICE
+                                        </Link>
+                                    </li>
+                                    <li>
+                                    <Link to='/digital_transformation'>
+                                        DIGITAL TRANSFORMATION
+                                        </Link>
+                                        </li>
+                                    <li>
+                                    <Link to='/shared_services'>
+                                        SHARED SERVICES
+                                        </Link>
+                                        </li>
+                                </ul>
+                            </div>
                         </div>
+                        <div className='col-md-4'>
+                            <div className='linkdiv' >
+                                <h5 className='links'>
+                                    Industries
+                                </h5>
+                                <ul className='links_ul'>
+                                    <li>
+                                        Healthcare Lifesciences
+                                    </li>
+                                    <li>
+                                        BFSI
+                                    </li>
+                                    <li>
+                                        Consumer & Retail
+                                    </li>
+                                    <li>
+                                        Manufacturing
+                                    </li>
+                                    <li>
+                                        Travel & Hospitality
+                                    </li>
+                                    <li>
+                                        Public Sector
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div className='col-md-4'>
+                            <div className='linkdiv' >
+                                <h5 className='links'>
+                                    About US
+                                </h5>
+                                <ul className='links_ul'>
+                                    <li>
+                                        <Link to='/about/#story'>
+                                        The MOBEDO Story
+                                        </Link>
+                                    </li>
+                                    <li>
+                                    <Link to='/about/#guides'>
+                                        What guides us
+                                        </Link>
+                                    </li>
+                                    <li>
+                                    <Link to='/about/#coreteam'>
+                                        Our Core Team
+                                        </Link>
+                                    </li>
+                                    <li>
+                                    <Link to='/about/#partofus'>
+                                        Be Part of us
+                                        </Link>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className='row line_above'>
+                <div className='col-md-8'>
+                <ul className='privacy_policy'>
+                    <li>© {(new Date().getFullYear())} MOBEDO Consulting </li>
+                    <li className='under_line' >Privacy Policy</li>
+                    <li className='under_line'>General Conditions</li>
+                </ul>
+                </div>
+                <div className='col-md-4 text-end'>
+                <ul className='socialmediaicons'>
+                    <li>
+                        <div>
+                            <img src="/fb2.png"  alt="" />
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <img src="/linkedin.png"  alt="" />
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <img src="/twitter.png" alt="" />
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <img src="/youtube1.png" alt="" />
+                        </div>
+                    </li>
+                </ul>
+                </div>
+            </div>
 
 
 
-
-                    </Navbar>
-
-                </Navbar.Collapse>
-            </Container>
-        </Navbar>
+        </div>
 
 
 

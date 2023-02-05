@@ -53,31 +53,45 @@ export default function index() {
           <Col className="col_side_content">
             <p>There is an unusual coordination between entities of different types. The emergent is distinct from its component parts and cannot be reduced to the mere sum or difference of these parts. </p>
           </Col>
-          
+
         </Row>
 
-        <div className="row mt-2">
-          <div className="col-md-4">
-          <div className="text-center">
-                <img src="/p4.png" alt=""/>
-                <p>STRATEGY CONSULTING</p>
+        <div className="row mt-2 mb-3">
+          <div className="col-md-4 col_bg_sc">
+            <div className="row">
+              <div className="col-md-7">
               </div>
+              <div className="col-md-5">
+                <p className="mb-0">STRATEGY </p><p> CONSULTING</p>
+              </div>
+            </div>
+
           </div>
-          <div className="col-md-4">
-          <div className="text-center">
-                <img src="/p5.png" alt=""/>
-                <p>TECHNOLOGY CONSULTING</p>
+          <div className="col-md-4 col_bg_tc">
+            <div className="row">
+
+              <div className="col-md-5">
+                <p className="mb-0">TECHNOLOGY </p> <p>CONSULTING</p>
               </div>
+              <div className="col-md-7">
+              </div>
+
+            </div>
           </div>
-          <div className="col-md-4">
-          <div className="text-center">
-                <img src="/p6.png" alt=""/>
-                <p>DIGITAL TRANSFORMATION</p>
+          <div className="col-md-4 col_bg_dt">
+            <div className="row">
+
+              <div className="col-md-5">
+                <p className="mb-0">DIGITAL  </p>  <p>TRANSFORMATION</p>
               </div>
+              <div className="col-md-7">
+              </div>
+            </div>
+            
           </div>
         </div>
 
-        
+
         {/* <Row>
         <Col>
           <video className="embed-responsive embed-responsive-16by9 video_content" controls>

@@ -24,8 +24,31 @@
 }
 
 .socialmediaicons {
-    text-align: center;
+    /* text-align: end; */
+    width: fit-content;
+    float: right;
+    background: #726a6a;
+    padding: 10px;
+    border-radius: 8px;
 }
+.socialmediaicons li{
+    display: inline-block;
+    margin: 0px 20px;
+    
+}
+.socialmediaicons li img{
+    width: 25px;
+}
+.under_line{
+    text-decoration: underline;
+}
+.privacy_policy li{
+    display: inline-block;
+    color: #fff;
+    margin-right: 20px;
+    font-size: 13px;
+}
+
 
 .footerpage {
     font-family: poppins;
@@ -368,7 +391,47 @@ h5.our_team {
     color: #0047ab;
     font-weight: 700;
 }
-
+.col_bg_sc{
+    background: url('/p4.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 170px;
+    color: #0047ab;
+    font-weight: 700;
+}
+.col_bg_tc{
+    background: url('/p5.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 170px;
+    color: #0047ab;
+    font-weight: 700;
+}
+.col_bg_dt{
+    background: url('/p6.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 170px;
+    color: #0047ab;
+    font-weight: 700;
+}
+.col_bg_sc div{
+    position: relative;
+    top: 50%;
+    right: 0;
+    text-align: start;
+}
+.col_bg_tc div{
+    position: relative;
+    top: 50%;
+    right: 0;
+    text-align: start;
+}.col_bg_dt div{
+    position: relative;
+    top: 50%;
+    right: 0;
+    text-align: start;
+}
 .col_bg_1 {
     background: url('/p34.png');
     background-repeat: no-repeat;
@@ -645,12 +708,16 @@ a {
 
 .logo {
     color: white;
-    height: 100px;
-    width: 150px;
+    /* height: 100px;
+    width: 150px; */
     font-size: 40px;
     font-weight: 700;
 }
-
+.firm_member{
+    color: #000;
+    font-size: 12px;
+    font-weight: 600;
+}
 .navitems {
     font-size: 20px;
     font-weight: 500;
@@ -740,6 +807,7 @@ Form {
 
 .footerbg {
     background-color: #0047ab;
+    padding: 10px 20px;
 }
 
 .qlinks,
@@ -751,8 +819,23 @@ Form {
 .links,
 .slinks {
     color: white;
+    font-size: 14px;
 }
-
+.links_ul li{
+    font-size: 13px;
+    color: #fff;
+}
+.links_ul li a{
+    color: #fff;
+}
+.line_above{
+    border-top: 1px solid #000;
+    padding-top: 15px;
+}
+.email_phone{
+    color: #fff;
+    font-size: 12px;
+}
 .servicediv {
     width: 150px;
 }
