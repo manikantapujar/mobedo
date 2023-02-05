@@ -16,12 +16,12 @@ export default function digitaltransformation() {
                 <Row className="row_content mt-0">
                     <img src="/p25.png" alt="" />
                     <h1 className="p_h_title">Digital Transformation</h1>
-                    <Col>
+                    <Col md={6} sm={12}>
                         <div className="col_side_heading">
                             <p>Empowering change, driving success through digital transformation .</p>
                         </div>
                     </Col>
-                    <Col className="col_side_content">
+                    <Col md={6} sm={12} className="col_side_content">
                         <p>Use data and digital to revolutionize your products and production methods. Harness the power of cloud, AI/ML, 5G, robotics, data science and AR/VR for enhanced resilience, efficiency, and sustainability in core operations. Do all this while also creating personalized experiences and intelligent products.</p>
                     </Col>
                 </Row>

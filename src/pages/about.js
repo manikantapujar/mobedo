@@ -16,7 +16,7 @@ const AboutPage = () => {
       {/* <Header /> */}
       <Navbar />
       <Container className="maincontainer font startegy_page" >
-        <Row className="row_content mt-0">
+        <Row className="row_content mt-0" id="story">
           <img src="/p31.png" alt="" />
           <h1 className="p_h_title">The MOBEDO Story</h1>
           <Col>
@@ -38,7 +38,7 @@ const AboutPage = () => {
           </Col>
         </Row>
 
-        <Row className="row_content mt-3">
+        <Row className="row_content mt-3" id="guides">
           <img src="/p32.png" alt="" />
           <h1 className="p_h_title">What Guides us - Our Essence </h1>
           <Col>
@@ -102,8 +102,8 @@ const AboutPage = () => {
 
           </div>
         </div>
-        <Row className="row_content mt-5">
-          <img src="/p40.png" alt="" />
+        <Row className="row_content mt-5" id="coreteam">
+          <img src="/p33.png" alt="" />
           <h1 className="p_h_title">Our Core Team</h1>
           <Col>
             <div className="">
@@ -145,6 +145,17 @@ const AboutPage = () => {
             <p>Partner – Growth and Global Clients</p>
           </div>
         </div>
+        <Row className="row_content mt-5" id="partofus">
+          <img src="/p40.png" alt="" />
+          <h1 className="p_h_title">Be a part of us</h1>
+          <Col>
+            <div className="">
+              <ul>
+                <li> We are industry experts passionate about making an impact. We are also devoted to working collaboratively with our clients and partners to ensure you are always ahead of the curve.</li>
+              </ul>
+            </div>
+          </Col>
+        </Row>
         {/* <div className="partion text-center mt-2">
           <img className="yellowdot" src="../yellowdots.svg" alt="this is innovation"></img>
         </div>

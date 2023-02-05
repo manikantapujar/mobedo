@@ -19,12 +19,12 @@ export default function index() {
       <Container fluid className="maincontainer font homepage">
         <Row className="row_content">
           <img src="/p1.png" alt="" />
-          <Col className="col_side_content">
+          <Col md={6} sm={12} className="col_side_content">
             <p>Growth and transformation are ongoing processes and nothing is ever truly static. We understand that businesses and individuals face new opportunities and challenges every day and that it's crucial to adapt and evolve to stay ahead. We work alongside our clients in navigating this constant change and to unlock their potential for sustainable growth. </p>
             <Link to="about"><Button className="button" variant="outline-primary">About us</Button>{' '}</Link>
           </Col>
           <Col>
-            <div className="col_side_heading">
+            <div md={6} sm={12} className="col_side_heading">
               <p>BEING TO BECOMING The <span> MOBEDO</span> Promise .</p>
             </div>
           </Col>

@@ -15,12 +15,12 @@ export default function sharedservices() {
             <Row className="row_content mt-0">
                     <img src="/p20.png" alt="" />
                     <h1 className="p_h_title">Shared Services</h1>
-                    <Col>
+                    <Col md={6} sm={12}>
                         <div className="col_side_heading">
                             <p>Efficiency at Scale: Unlocking the Power of Shared Services</p>
                         </div>
                     </Col>
-                    <Col className="col_side_content">
+                    <Col md={6} sm={12} className="col_side_content">
                         <p>MOBEDO expertise and experience offering shared services will help businesses streamline processes, reduce costs, and improve efficiency by centralizing and standardizing common functions across the organization. </p>
                     </Col>
                 </Row>

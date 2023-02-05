@@ -15,12 +15,12 @@ export default function technology() {
                 <Row className="row_content mt-0">
                     <img src="/p13.png" alt="" />
                     <h1 className="p_h_title">Technology Consulting</h1>
-                    <Col>
+                    <Col md={6} sm={12} className="">
                         <div className="col_side_heading">
                             <p>Maximize the value of technology for your business with our Technology Development & Consulting practice. Our experts help shape technology visions, execute digital transformation and create sustainable value from investments.</p>
                         </div>
                     </Col>
-                    <Col className="col_side_content">
+                    <Col md={6} sm={12} className="col_side_content">
                         <p>Customized, comprehensive strategies that drive sustainable growth, improve performance and create a competitive edge to helping our clients navigate the ever-changing business landscape. </p>
                     </Col>
                 </Row>
