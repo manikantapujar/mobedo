@@ -10,7 +10,7 @@ import Col from 'react-bootstrap/Col';
 export default function footer() {
     return (
 
-        <Navbar className='footerbg maincontainer'>
+        <Navbar className='footerbg'>
             <Container fluid className="" >
 
                 <Row>
@@ -31,45 +31,44 @@ export default function footer() {
                 <Row className='linkblock footerpage'>
                     <Col sm={6}>
                         <div className='linkdiv' >
-                            <h5 className='qlinks'>
-                                Contact Us
+                            <h5 className='links'>
+                                Service Areas
                             </h5>
                             <ul className='links'>
                                 <li>
-                                    +91-9894512313
+                                    STRATEGY PRACTICE
                                 </li>
                                 <li>
-                                    +91-9894512313
+                                    TECHNOLOGY PRACTICE
                                 </li>
-
+                                <li>DIGITAL TRANSFORMATION</li>
+                                <li>SHARED SERVICES</li>
                             </ul>
                         </div>
                     </Col>
                     <Col sm={6}>
                         <div className='servicediv' >
-                            <h5 className='serlinks'>
-                                Privacy Policy
+                            <h5 className='slinks'>
+                                Industries
                             </h5>
                             <ul className='slinks'>
                                 <li>
-
-                                    dummy
+                                    Healthcare Lifesciences
                                 </li>
                                 <li>
-
-                                    dummy
+                                    BFSI
                                 </li>
                                 <li>
-
-                                    dummy
+                                    Consumer & Retail
                                 </li>
                                 <li>
-
-                                    dummy
+                                    Manufacturing
                                 </li>
                                 <li>
-
-                                    dummy
+                                    Travel & Hospitality
+                                </li>
+                                <li>
+                                    Public Sector
                                 </li>
                             </ul>
                         </div>

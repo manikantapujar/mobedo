@@ -87,7 +87,7 @@ export default function technology() {
                     </div>
                 </div>
                 <h5 className="our_team mt-3">Our Team</h5>
-                <div className="row ">
+                <div className="row core_team">
                     <div className="col-md-3">
                         <div className="img_row_team">
                             <img src="/t1.jpg" alt="" />

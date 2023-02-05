@@ -47,9 +47,15 @@
     color: #143250;
     font-weight: 600;
     line-height: 1.2;
+    margin-top: 25px;
     font-size: 25px !important;
 }
-
+.being_cont{
+    color: #42e742;
+}
+.being_cont span{
+    color: #0047ab;
+}
 .col_side_content {
     color: black;
     font-weight: 400;
@@ -331,11 +337,15 @@
 
 .startegy_page h2 {
     color: #214e8f;
+    margin-top: 0px;
 }
 
 .img_row_team {
     background: #0047ab;
     margin-right: 15px;
+}
+.img_row_team h5{
+    color: #42e742;
 }
 
 .img_row_team img {
@@ -349,7 +359,7 @@ h5.our_team {
     font-weight: 700;
 }
 
-.core_team h5 {
+.core_team h5, .our_team h5 {
     color: #42e742;
     font-weight: 700;
 }
