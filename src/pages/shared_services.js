@@ -17,7 +17,7 @@ export default function sharedservices() {
                     <h1 className="p_h_title">Shared Services</h1>
                     <Col md={6} sm={12}>
                         <div className="col_side_heading">
-                            <p>Efficiency at Scale: Unlocking the Power of Shared Services</p>
+                            <p className="blue_color">Efficiency at Scale: Unlocking the Power of Shared Services</p>
                         </div>
                     </Col>
                     <Col md={6} sm={12} className="col_side_content">
@@ -67,7 +67,7 @@ export default function sharedservices() {
                     </div>
                 </div>
                 
-                <h5 className="our_team mt-3">Our Team</h5>
+                {/* <h5 className="our_team mt-3">Our Team</h5>
                 <div className="row core_team">
                     <div className="col-md-3">
                         <div className="img_row_team">
@@ -89,7 +89,7 @@ export default function sharedservices() {
                         <h5>Gaurav Bhaskar</h5>
 
                     </div>
-                </div>
+                </div> */}
                 {/* <Row>
                     <Col>
                         <h1 className='ctitle'>

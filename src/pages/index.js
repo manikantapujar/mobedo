@@ -17,25 +17,24 @@ export default function index() {
     <>
       <Navbar />
       <Container fluid className="maincontainer font homepage">
-        <Row className="row_content">
+        <Row className="">
           <img src="/p1.png" alt="" />
           <Col md={8} sm={12} className="col_side_content">
             <p>Growth and transformation are ongoing processes and nothing is ever truly static. We understand that businesses and individuals face new opportunities and challenges every day and that it's crucial to adapt and evolve to stay ahead. We work alongside our clients in navigating this constant change and to unlock their potential for sustainable growth. </p>
-            <Link to="about"><Button className="button" variant="outline-primary">About us</Button>{' '}</Link>
+            <Link to="about"><Button className="button btn-warning">About us</Button>{' '}</Link>
           </Col>
           <Col>
             <div md={4} sm={12} className="col_side_heading">
               <p className="being_cont">BEING TO BECOMING The <span> MOBEDO</span> Promise .</p>
             </div>
           </Col>
-
         </Row>
         <Row className="row_content">
           <img src="/p2.png" alt="" />
           <h2 className="p_h_title">Our Proposition</h2>
           <ul>
             <li>A <b> consecrated dedication</b> to working alongside our clients on their technology, strategy, and innovation needs</li>
-            <li>A multidisciplinary team that goes a long way back with <b> mutual respect </b> for each other and with a balanced depth of expertise and experience that complements each others skills well</li>
+            <li>A multidisciplinary team that goes a long way back with <b> mutual respect </b> for each other and with a balanced depth of expertise and experience that complements each others skills well</li>
             <li>A strategic ally for driving growth through innovative and data-driven solutions. We <b>break-free </b>from traditional consulting methods to unleash our clients' full potential</li>
             <li>An environment where engaged minds and subject matter experts work creatively and collaboratively to drive results. We welcome our clients, partners, and colleagues to join us in tackling challenges and turning ideas into action and drive <b> meaningful impact</b></li>
           </ul>
@@ -47,7 +46,7 @@ export default function index() {
           <h2 className="p_h_title">Our Practice Areas</h2>
           <Col>
             <div className="col_side_heading">
-              <p>Harmonious Solutions.</p>
+              <p className="harmo_color">Harmonious Solutions.</p>
             </div>
           </Col>
           <Col className="col_side_content">
@@ -59,10 +58,11 @@ export default function index() {
         <div className="row mt-2 mb-3">
           <div className="col-md-4 col_bg_sc">
             <div className="row">
-              <div className="col-md-7">
-              </div>
+
               <div className="col-md-5">
                 <p className="mb-0">STRATEGY </p><p> CONSULTING</p>
+              </div>
+              <div className="col-md-7">
               </div>
             </div>
 
@@ -87,7 +87,7 @@ export default function index() {
               <div className="col-md-7">
               </div>
             </div>
-            
+
           </div>
         </div>
 

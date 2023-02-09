@@ -2,7 +2,9 @@
     padding-left: 0px;
     padding-right: 0px;
 }
-
+body{
+    font-family: 'Poppins', sans-serif !important;
+}
 .sticky-top {
     border-bottom: 1px solid #cccccc;
     /* top: 30px ; */
@@ -19,8 +21,8 @@
 
 /* home page CSS starts */
 .maincontainer {
-    padding-left: 80px !important;
-    padding-right: 80px !important;
+    /* padding-left: 40px !important;
+    padding-right: 40px !important; */
 }
 
 .socialmediaicons {
@@ -41,7 +43,24 @@
 }
 .under_line{
     text-decoration: underline;
+    color: #fff;
 }
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.under_line:hover{
+    color: #fff;
+}
+
 .privacy_policy li{
     display: inline-block;
     color: #fff;
@@ -386,13 +405,16 @@ h5.our_team {
     color: #42e742;
     font-weight: 700;
 }
+.harmo_color{
+    color: #42e742;
+}
 
 .mission_vision li span {
     color: #0047ab;
     font-weight: 700;
 }
 .col_bg_sc{
-    background: url('/p4.png');
+    background: url('/p4.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
     height: 170px;
@@ -477,7 +499,16 @@ h5.our_team {
     color: #0047ab;
     font-size: 18px;
 }
-
+.blue_color{
+    color: #0047ab;
+}
+.form-label{
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+.asteristk{
+    color: red;
+}
 .p_h_title {
     position: relative;
     margin-top: -45px;
@@ -494,7 +525,7 @@ h5.our_team {
 }
 
 .dropdown .dropbtn {
-    font-size: 20px;
+    font-size: 16px;
     border: none;
     outline: none;
     color: #0000008c;
@@ -504,7 +535,6 @@ h5.our_team {
     margin: 0;
 }
 
-.navbar a:hover,
 .dropdown:hover .dropbtn {
     background-color: rgb(211, 211, 211);
     color: #000;
@@ -699,11 +729,20 @@ a {
     color: #0000008c;
 }
 
-.btn-warning {
-    font-size: 18px;
+.btn-warning,.btn-warning:hover {
+    font-size: 16px;
     font-weight: 500;
-    margin-top: -5px;
-    color: #0000008c;
+    margin-top: -7px;
+    color: #fff;
+    background: #1c4f9e;
+    border: #1c4f9e;
+    
+}
+.padding_main{
+    padding: 0px 30px;
+}
+.btn_nav_list{
+    padding: 10px 0px 0px !important;
 }
 
 .logo {
@@ -719,7 +758,7 @@ a {
     font-weight: 600;
 }
 .navitems {
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 500;
     color: #0000008c;
 }

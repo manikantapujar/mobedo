@@ -17,7 +17,7 @@ export default function technology() {
                     <h1 className="p_h_title">Technology Consulting</h1>
                     <Col md={6} sm={12} className="">
                         <div className="col_side_heading">
-                            <p>Maximize the value of technology for your business with our Technology Development & Consulting practice. Our experts help shape technology visions, execute digital transformation and create sustainable value from investments.</p>
+                            <p className="blue_color">Maximize the value of technology for your business with our Technology Development & Consulting practice. Our experts help shape technology visions, execute digital transformation and create sustainable value from investments.</p>
                         </div>
                     </Col>
                     <Col md={6} sm={12} className="col_side_content">
@@ -86,7 +86,7 @@ export default function technology() {
                         <p>Thrive in the Metaverse with responsible strategies. Our in-house experts and partners can help you understand and shape a vision  to navigate the rapidly-evolving metaverse landscape and creating a sustainable strategy for success through immersive education and exploration of industry-specific and functional use cases, all while prioritizing responsibility and long-term value generation.</p>
                     </div>
                 </div>
-                <h5 className="our_team mt-3">Our Team</h5>
+                {/* <h5 className="our_team mt-3">Our Team</h5>
                 <div className="row core_team">
                     <div className="col-md-3">
                         <div className="img_row_team">
@@ -107,7 +107,7 @@ export default function technology() {
                         <h5>Gaurav Bhaskar</h5>
 
                     </div>
-                </div>
+                </div> */}
 
                 {/* <Row>
                     <Col>

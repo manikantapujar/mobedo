@@ -18,20 +18,8 @@ export default function contact() {
             <Navbar />
             <Container fluid className="maincontainer contactpage"  >
 
-                <Row className='row_content'>
-                    <Col sm={7}>
-                        <h1 className='side_head'>
-                            We want to hear from you.
-                        </h1>
-                    </Col>
-                    <Col sm={5}   >
-                        <p className='side_content'>
-                            Whether you’re interested in our work or interested in working with us (or both) we’d love to connect. Fill out your information below and we’ll get you in touch with one of our real, live Unifiers. No robots here!
-                        </p>
-                    </Col>
-                </Row>
-            </Container>
-                <Row className='row_content row_content_form contactpage ' >
+                 
+                <Row className='row_content row_content_form contactpage mb-2' >
                     <Col sm={7}>
                         <Form>
                             <Form.Group className="mb-3" controlId="formBasicEmail">
@@ -54,20 +42,10 @@ export default function contact() {
                         </Form>
                     </Col>
                     <Col sm={5} className="dirCol">
-                        <div className='contcontet'>
-                            <p className="contacth">
-                                YOUR UNIFIER
-                            </p>
-                            <Image className='contactimg1' src="/contactimg1.png" alt="" />
-                            {/* <img  Image className='contactimg1' src="/contactimg1.png" alt=""/> */}
-                            <h3 className="contactn">Joyce Buck</h3>
-                            <p className="contactd">Managing Director</p>
-                            <div className="contacti">
-                                Based on the information you provided, Joyce will be reaching out to you soon!
-                            </div>
-                        </div>
                     </Col>
                 </Row>
+            </Container>
+
             <Footer />
         </>
 

@@ -6,14 +6,57 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
+import Form from 'react-bootstrap/Form';
+import { Link } from 'gatsby';
+import { Button } from 'react-bootstrap';
 
 export default function careers() {
     return (
         <>
             {/* <Header /> */}
             <Navbar />
-            <Container fluid className='careerspage'>
-                <h1 className='ctitle'>
+            <Container fluid className=''>
+                <Row className="">
+                    <img src="/p41.jpeg" alt="" />
+                    <Col>
+                        <div className="col_side_heading">
+                            <p className="harmo_color">Be a part of us</p>
+                        </div>
+                    </Col>
+                    <Col className="col_side_content">
+                        <p>We aim to create a welcoming and comfortable workplace that
+                            promotes integration and synergy. Our values focus on providing an
+                            engaging and enlightening environment that drives impact. Join our
+                            ambitious and happy team to access the benefits of a better
+                            workspace. </p>
+                        <p>Fill out your information below and we will get in touch with you</p>
+                    </Col>
+
+                </Row>
+                <div className='row mb-3'>
+                    <div className='col-md-6'>
+                        <Form>
+                            <Form.Group className="mb-3" controlId="formBasicEmail">
+                                <Form.Label><strong>Name <span className='asteristk'>*</span></strong> </Form.Label>
+                                <Form.Control type='Name' placeholder='What is your  Name' />
+                                <Form.Label><strong>Email <span className='asteristk'>*</span></strong>  </Form.Label>
+                                <Form.Control type="email" placeholder="What is your  email" />
+                                <Form.Label> <strong>Phone <span className='asteristk'>*</span></strong>  </Form.Label>
+                                <Form.Control type="number" placeholder="Can we call you?" />
+                                <Form.Label for="myfile"><strong> Resume <span className='asteristk'>*</span></strong></Form.Label>
+                                <Form.Control className='' type="file" id="myfile" name="myfile" multiple></Form.Control>
+                            </Form.Group>
+                            <Link to="contact">
+                                <Button className='btn-warning'>Submit</Button>{' '}
+                            </Link>
+                        </Form>
+                    </div>
+                    <div>
+
+                    </div>
+                </div>
+
+                {/* <h1 className='ctitle'>
                     Careers
                 </h1>
                 <div>
@@ -101,8 +144,7 @@ export default function careers() {
                             </Col>
                         </Row>
                     </Col>
-                </Row>
-                <br />
+                </Row> */}
             </Container>
             <Footer />
 

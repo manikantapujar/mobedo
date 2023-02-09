@@ -15,9 +15,9 @@ function Navitem() {
         <Container fluid className='Navbarpage'>
           <Link to="/">
             <Navbar.Brand >
-              <img src="/mobedologo1.jpeg"
+              <img src="/mobedologo1.png"
                 width="150px"
-                height="80px"
+                
                 className="d-inline-block align-top"
                 alt="React Bootstrap logo"
               />
@@ -29,9 +29,9 @@ function Navitem() {
 
             </Nav>
             <Nav className='navitems'>
-              <Link to="/"><Nav className='navlist'  >Home</Nav></Link>
+              {/* <Link to="/"><Nav className='navlist'  >Home</Nav></Link> */}
               <div className="dropdown">
-                <button className="dropbtn navlist">Services
+                <button className="dropbtn navlist">SERVICES
                   <i className="fa fa-caret-down"></i>
                 </button>
                 <div className="dropdown-content" id="collasible-nav-dropdown">
@@ -42,7 +42,7 @@ function Navitem() {
                 </div>
               </div>
               <div className="dropdown" >
-                <button className="dropbtn navlist">About Us
+                <button className="dropbtn navlist">ABOUT US
                   <i className="fa fa-caret-down"></i>
                 </button>
                 <div className="dropdown-content" id="collasible-nav-dropdown">
@@ -68,9 +68,9 @@ function Navitem() {
                   <NavDropdown.Item><Link to='/about/#partofus'>Be Part of us</Link></NavDropdown.Item>
                 </div>
               </NavDropdown> */}
-              <Link to="/careers"><Nav className='navlist' >Careers</Nav></Link>
-              <Link to="/blog"><Nav className='navlist' > Blog</Nav></Link>
-              <Link to="/contact"><Nav className='navlist'   > <Button variant="warning">CONTACT NOW</Button>{' '} </Nav></Link>
+              <Link to="/careers"><Nav className='navlist' >CAREERS</Nav></Link>
+              {/* <Link to="/blog"><Nav className='navlist' > Blog</Nav></Link> */}
+              <Link to="/contact"><Nav className='navlist btn_nav_list'   > <Button variant="warning">CONNECT WITH US</Button>{' '} </Nav></Link>
             </Nav>
           </Navbar.Collapse>
         </Container>

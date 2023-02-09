@@ -17,7 +17,7 @@ export default function startergy() {
                     <h1 className="p_h_title">Strategy Consulting</h1>
                     <Col md={6} sm={12}>
                         <div className="col_side_heading">
-                            <p>Strategies that Deliver Results.</p>
+                            <p className="blue_color">Strategies that Deliver Results.</p>
                         </div>
                     </Col>
                     <Col md={6} sm={12} className="col_side_content">
@@ -76,7 +76,7 @@ export default function startergy() {
                         <img src="/p12.png" alt="" />
                     </div>
                 </div>
-                <h5 className="our_team mt-3">Our Team</h5>
+                {/* <h5 className="our_team mt-3">Our Team</h5>
                 <div className="row core_team">
                     <div className="col-md-3">
                         <div className="img_row_team">
@@ -98,7 +98,7 @@ export default function startergy() {
                         <h5 >Gaurav Bhaskar</h5>
 
                     </div>
-                </div>
+                </div> */}
                 {/* <Row>
                     <Col>
                         <h1 className='ctitle'>

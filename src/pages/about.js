@@ -145,7 +145,7 @@ const AboutPage = () => {
             <p>Partner – Growth and Global Clients</p>
           </div>
         </div>
-        <Row className="row_content mt-5" id="partofus">
+        {/* <Row className="row_content mt-5" id="partofus">
           <img src="/p40.png" alt="" />
           <h1 className="p_h_title">Be a part of us</h1>
           <Col>
@@ -155,7 +155,7 @@ const AboutPage = () => {
               </ul>
             </div>
           </Col>
-        </Row>
+        </Row> */}
         {/* <div className="partion text-center mt-2">
           <img className="yellowdot" src="../yellowdots.svg" alt="this is innovation"></img>
         </div>

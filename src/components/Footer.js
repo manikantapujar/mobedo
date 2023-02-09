@@ -20,7 +20,7 @@ export default function footer() {
 
                         </div>
                         <div className='col-md-8 email_phone'>
-                            <p>01897465226</p>
+                            <p>9849813377</p>
                             <p>info@mobedoconsulting.com</p>
                         </div>
                 <p className='firm_member'>Member firm of the MOBEDO Group</p>
@@ -121,20 +121,20 @@ export default function footer() {
                 <div className='col-md-8'>
                 <ul className='privacy_policy'>
                     <li>© {(new Date().getFullYear())} MOBEDO Consulting </li>
-                    <li className='under_line' >Privacy Policy</li>
-                    <li className='under_line'>General Conditions</li>
+                    <li className='under_line' > <Link className='under_line' to='/privacypolicy' > Privacy Policy</Link></li>
+                    {/* <li className='under_line'>General Conditions</li> */}
                 </ul>
                 </div>
                 <div className='col-md-4 text-end'>
                 <ul className='socialmediaicons'>
                     <li>
                         <div>
-                            <img src="/fb2.png"  alt="" />
+                            <a href="https://www.facebook.com/profile.php?id=100083091289444&mibextid=ZbWKwL" target="_blank"><img src="/fb2.png"  alt="" /></a>
                         </div>
                     </li>
                     <li>
                         <div>
-                            <img src="/linkedin.png"  alt="" />
+                        <a href="https://www.linkedin.com/in/mobedo-consulting-8450ba239" target="_blank"><img src="/linkedin.png"  alt="" /></a>
                         </div>
                     </li>
                     <li>

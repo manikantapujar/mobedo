@@ -18,7 +18,7 @@ export default function digitaltransformation() {
                     <h1 className="p_h_title">Digital Transformation</h1>
                     <Col md={6} sm={12}>
                         <div className="col_side_heading">
-                            <p>Empowering change, driving success through digital transformation .</p>
+                            <p className="blue_color">Empowering change, driving success through digital transformation .</p>
                         </div>
                     </Col>
                     <Col md={6} sm={12} className="col_side_content">
@@ -87,7 +87,7 @@ export default function digitaltransformation() {
                         <p>Maximize your digital presence and boost your online revenue by implementing our growth-driven digital marketing strategies. To ensure the most effective outcome for our clients, we keep abreast of the latest trends and evaluate their effectiveness through internal testing, in order to determine the most successful strategies.</p>
                     </div>
                 </div>
-                <h5 className="our_team mt-3">Our Team</h5>
+                {/* <h5 className="our_team mt-3">Our Team</h5>
                 <div className="row core_team">
                     <div className="col-md-3">
                         <div className="img_row_team">
@@ -108,7 +108,7 @@ export default function digitaltransformation() {
                         <h5>Arvind Maheswaram</h5>
 
                     </div>
-                </div>
+                </div> */}
                 {/* <Row>
                     <Col>
                         <h1 className='ctitle'>
