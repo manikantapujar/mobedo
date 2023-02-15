@@ -24,68 +24,139 @@ export default function technology() {
                         <p>Customized, comprehensive strategies that drive sustainable growth, improve performance and create a competitive edge to helping our clients navigate the ever-changing business landscape. </p>
                     </Col>
                 </Row>
+                <div className="desktop_view">
+                    <div className="row mt-3">
+                        <div className="col-md-6">
+                            <h2 className="col_side_heading">Enterprise Applications</h2>
+                            <h6>Building your business success, one application at a time</h6>
+                            <p>Unlock the full potential of your organization with our Enterprise applications consulting & development expertise. We align technology strategy with business goals, modernize systems (and architecture), increase efficiency by implement modern operating models. </p>
+                        </div>
+                        <div className="col-md-6">
+                            <img src="/p14.png" alt="" />
+                        </div>
+                    </div>
+                    <div className="row mt-3">
+                        <div className="col-md-6">
+                            <img src="/p15.png" alt="" />
+                        </div>
+                        <div className="col-md-6">
+                            <h2 className="col_side_heading">Technology Solutions Delivery</h2>
+                            <h6>Powering your success with cutting-edge technology solutions</h6>
+                            <p>We provide cutting-edge solutions that drive innovation and growth. Our team of experts work closely with you to understand your unique needs and tailor our offerings to help you achieve your business objectives. </p>
+                        </div>
 
-                <div className="row mt-3">
-                    <div className="col-md-6">
-                        <h2 className="col_side_heading">Enterprise Applications</h2>
-                        <h6>Building your business success, one application at a time</h6>
-                        <p>Unlock the full potential of your organization with our Enterprise applications consulting & development expertise. We align technology strategy with business goals, modernize systems (and architecture), increase efficiency by implement modern operating models. </p>
                     </div>
-                    <div className="col-md-6">
-                        <img src="/p14.png" alt="" />
+                    <div className="row mt-3">
+                        <div className="col-md-6">
+                            <h2 className="col_side_heading">WEB3</h2>
+                            <h6>Demystifying the future of the digital economy </h6>
+                            <p>Unpack the implications of Web3 and understand its future impact on your industry. We help you navigate the digital economy, assess opportunities and threats, and chart a course for long-term value generation. Our experts can support you in developing your Web3 strategy, develop your capabilities and identify monetization opportunities. </p>
+                        </div>
+                        <div className="col-md-6">
+                            <img src="/p16.png" alt="" />
+                        </div>
+                    </div>
+                    <div className="row mt-3">
+                        <div className="col-md-6">
+                            <img src="/p17.png" alt="" />
+                        </div>
+                        <div className="col-md-6">
+                            <h2 className="col_side_heading">CyberSecurity Services</h2>
+                            <h6>Securing your digital world</h6>
+                            <p>Our team of cybersecurity experts can help you quantify and prioritize your risks. With industry-leading partnerships and an established team we can extend your team and help detect & respond to threats.</p>
+                        </div>
+                    </div>
+                    <div className="row mt-3">
+                        <div className="col-md-6">
+                            <h2 className="col_side_heading">UI/UX Strategy & Design</h2>
+                            <h6>Designing user-centric solutions to innovate & transform</h6>
+                            <p>Transform your business by unleashing the power of design. Our human-centered approach combines strategy, design, development, and operations to create innovative experiences and products that strengthen relationships with customers and employees. Leverage our global network of studios for comprehensive support.</p>
+                        </div>
+                        <div className="col-md-6">
+                            <img src="/p18.png" alt="" />
+                        </div>
+                    </div>
+                    <div className="row mt-3">
+                        <div className="col-md-6">
+                            <img src="/p19.png" alt="" />
+                        </div>
+                        <div className="col-md-6">
+                            <h2 className="col_side_heading">Metaverse</h2>
+                            <h6>Shaping the future of digital engagement </h6>
+                            <p>Thrive in the Metaverse with responsible strategies. Our in-house experts and partners can help you understand and shape a vision  to navigate the rapidly-evolving metaverse landscape and creating a sustainable strategy for success through immersive education and exploration of industry-specific and functional use cases, all while prioritizing responsibility and long-term value generation.</p>
+                        </div>
                     </div>
                 </div>
-                <div className="row mt-3">
-                    <div className="col-md-6">
-                        <img src="/p15.png" alt="" />
-                    </div>
-                    <div className="col-md-6">
-                        <h2 className="col_side_heading">Technology Solutions Delivery</h2>
-                        <h6>Powering your success with cutting-edge technology solutions</h6>
-                        <p>We provide cutting-edge solutions that drive innovation and growth. Our team of experts work closely with you to understand your unique needs and tailor our offerings to help you achieve your business objectives. </p>
-                    </div>
 
+
+
+                <div className="mobile_view">
+                    <div className="row mt-3">
+                        <div className="col-md-6">
+                            <img src="/p14.png" alt="" />
+                        </div>
+                        <div className="col-md-6">
+                            <h2 className="col_side_heading">Enterprise Applications</h2>
+                            <h6>Building your business success, one application at a time</h6>
+                            <p>Unlock the full potential of your organization with our Enterprise applications consulting & development expertise. We align technology strategy with business goals, modernize systems (and architecture), increase efficiency by implement modern operating models. </p>
+                        </div>
+
+                    </div>
+                    <div className="row mt-3">
+                        <div className="col-md-6">
+                            <img src="/p15.png" alt="" />
+                        </div>
+                        <div className="col-md-6">
+                            <h2 className="col_side_heading">Technology Solutions Delivery</h2>
+                            <h6>Powering your success with cutting-edge technology solutions</h6>
+                            <p>We provide cutting-edge solutions that drive innovation and growth. Our team of experts work closely with you to understand your unique needs and tailor our offerings to help you achieve your business objectives. </p>
+                        </div>
+
+                    </div>
+                    <div className="row mt-3">
+                        <div className="col-md-6">
+                            <img src="/p16.png" alt="" />
+                        </div>
+                        <div className="col-md-6">
+                            <h2 className="col_side_heading">WEB3</h2>
+                            <h6>Demystifying the future of the digital economy </h6>
+                            <p>Unpack the implications of Web3 and understand its future impact on your industry. We help you navigate the digital economy, assess opportunities and threats, and chart a course for long-term value generation. Our experts can support you in developing your Web3 strategy, develop your capabilities and identify monetization opportunities. </p>
+                        </div>
+
+                    </div>
+                    <div className="row mt-3">
+                        <div className="col-md-6">
+                            <img src="/p17.png" alt="" />
+                        </div>
+                        <div className="col-md-6">
+                            <h2 className="col_side_heading">CyberSecurity Services</h2>
+                            <h6>Securing your digital world</h6>
+                            <p>Our team of cybersecurity experts can help you quantify and prioritize your risks. With industry-leading partnerships and an established team we can extend your team and help detect & respond to threats.</p>
+                        </div>
+                    </div>
+                    <div className="row mt-3">
+                        <div className="col-md-6">
+                            <img src="/p18.png" alt="" />
+                        </div>
+                        <div className="col-md-6">
+                            <h2 className="col_side_heading">UI/UX Strategy & Design</h2>
+                            <h6>Designing user-centric solutions to innovate & transform</h6>
+                            <p>Transform your business by unleashing the power of design. Our human-centered approach combines strategy, design, development, and operations to create innovative experiences and products that strengthen relationships with customers and employees. Leverage our global network of studios for comprehensive support.</p>
+                        </div>
+
+                    </div>
+                    <div className="row mt-3">
+                        <div className="col-md-6">
+                            <img src="/p19.png" alt="" />
+                        </div>
+                        <div className="col-md-6">
+                            <h2 className="col_side_heading">Metaverse</h2>
+                            <h6>Shaping the future of digital engagement </h6>
+                            <p>Thrive in the Metaverse with responsible strategies. Our in-house experts and partners can help you understand and shape a vision  to navigate the rapidly-evolving metaverse landscape and creating a sustainable strategy for success through immersive education and exploration of industry-specific and functional use cases, all while prioritizing responsibility and long-term value generation.</p>
+                        </div>
+                    </div>
                 </div>
-                <div className="row mt-3">
-                    <div className="col-md-6">
-                        <h2 className="col_side_heading">WEB3</h2>
-                        <h6>Demystifying the future of the digital economy </h6>
-                        <p>Unpack the implications of Web3 and understand its future impact on your industry. We help you navigate the digital economy, assess opportunities and threats, and chart a course for long-term value generation. Our experts can support you in developing your Web3 strategy, develop your capabilities and identify monetization opportunities. </p>
-                    </div>
-                    <div className="col-md-6">
-                        <img src="/p16.png" alt="" />
-                    </div>
-                </div>
-                <div className="row mt-3">
-                    <div className="col-md-6">
-                        <img src="/p17.png" alt="" />
-                    </div>
-                    <div className="col-md-6">
-                        <h2 className="col_side_heading">CyberSecurity Services</h2>
-                        <h6>Securing your digital world</h6>
-                        <p>Our team of cybersecurity experts can help you quantify and prioritize your risks. With industry-leading partnerships and an established team we can extend your team and help detect & respond to threats.</p>
-                    </div>
-                </div>
-                <div className="row mt-3">
-                    <div className="col-md-6">
-                        <h2 className="col_side_heading">UI/UX Strategy & Design</h2>
-                        <h6>Designing user-centric solutions to innovate & transform</h6>
-                        <p>Transform your business by unleashing the power of design. Our human-centered approach combines strategy, design, development, and operations to create innovative experiences and products that strengthen relationships with customers and employees. Leverage our global network of studios for comprehensive support.</p>
-                    </div>
-                    <div className="col-md-6">
-                        <img src="/p18.png" alt="" />
-                    </div>
-                </div>
-                <div className="row mt-3">
-                    <div className="col-md-6">
-                        <img src="/p19.png" alt="" />
-                    </div>
-                    <div className="col-md-6">
-                        <h2 className="col_side_heading">Metaverse</h2>
-                        <h6>Shaping the future of digital engagement </h6>
-                        <p>Thrive in the Metaverse with responsible strategies. Our in-house experts and partners can help you understand and shape a vision  to navigate the rapidly-evolving metaverse landscape and creating a sustainable strategy for success through immersive education and exploration of industry-specific and functional use cases, all while prioritizing responsibility and long-term value generation.</p>
-                    </div>
-                </div>
+
                 {/* <h5 className="our_team mt-3">Our Team</h5>
                 <div className="row core_team">
                     <div className="col-md-3">

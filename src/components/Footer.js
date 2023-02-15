@@ -88,7 +88,7 @@ export default function footer() {
                         <div className='col-md-4'>
                             <div className='linkdiv' >
                                 <h5 className='links'>
-                                    About US
+                                    About Us
                                 </h5>
                                 <ul className='links_ul'>
                                     <li>

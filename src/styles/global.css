@@ -567,9 +567,23 @@ h5.our_team {
     display: block;
 }
 
+.desktop_view{
+    display: block;
+}
+.mobile_view{
+    display: none;
+}
 /* end of career page */
 @media(max-width:767px) {
-
+    .desktop_view{
+        display: none;
+    }
+    .mobile_view{
+        display: block;
+    }
+    .startegy_page h2{
+        margin-top: 10px;
+    }
     /* navbar css start */
     .sticky-top {
         padding: 0px !important;
@@ -585,8 +599,8 @@ h5.our_team {
     }
 
     .maincontainer {
-        padding-left: 0px !important;
-        padding-right: 0px !important;
+        padding-left: 15px !important;
+        padding-right: 15px !important;
     }
 
     .col_side_heading {
@@ -594,6 +608,7 @@ h5.our_team {
         font-weight: 700;
         line-height: 1.2;
         font-size: 17px !important;
+        margin-top: 0px;
     }
 
     .head {
@@ -703,7 +718,7 @@ h5.our_team {
     }
 
     .row_content {
-        margin-top: 25px !important;
+        margin-top: 10px !important;
     }
 
     .maincontainer.contactpage.container-fluid {
@@ -711,7 +726,7 @@ h5.our_team {
     }
 
     .contactpage {
-        margin-top: 50px;
+        margin-top: 10px;
     }
 
     /* contactpage css mobile view end*/
@@ -804,7 +819,7 @@ a {
 }
 
 .row_content {
-    margin-top: 50px;
+    margin-top: 0px;
 }
 
 .row_content_form {
@@ -836,7 +851,7 @@ a {
 }
 
 Form {
-    padding-right: 180px;
+    /* padding-right: 180px; */
 }
 
 .headerbg {

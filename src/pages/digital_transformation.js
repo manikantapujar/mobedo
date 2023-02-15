@@ -25,68 +25,138 @@ export default function digitaltransformation() {
                         <p>Use data and digital to revolutionize your products and production methods. Harness the power of cloud, AI/ML, 5G, robotics, data science and AR/VR for enhanced resilience, efficiency, and sustainability in core operations. Do all this while also creating personalized experiences and intelligent products.</p>
                     </Col>
                 </Row>
+                <div className="desktop_view">
+                    <div className="row mt-3">
+                        <div className="col-md-6">
+                            <h2 className="col_side_heading">Digital Strategy Development</h2>
+                            <h6>Business Strategy developed to help you navigate the path to success</h6>
+                            <p>Navigate the ever-evolving digital landscape and stay ahead of the competition. We work closely with our clients to understand their unique needs and goals, and then create a customized plan that leverages the latest technologies and digital trends to drive growth, improve customer engagement, and achieve measurable results.</p>
+                        </div>
+                        <div className="col-md-6">
+                            <img src="/p26.png" alt="" />
+                        </div>
+                    </div>
+                    <div className="row mt-3">
+                        <div className="col-md-6">
+                            <img src="/p27.png" alt="" />
+                        </div>
+                        <div className="col-md-6">
+                            <h2 className="col_side_heading">Data Science and Analytics</h2>
+                            <h6>Drive smarter decisions through data led insights</h6>
+                            <p>Providing organizations with the insights and intelligence needed to make better decisions. Our team of experts use advanced analytics techniques, including machine learning, data visualization, and predictive modeling to turn raw data into actionable insights. We work closely with our clients to understand their specific needs and goals, and deliver customized solutions that drive growth, improve efficiency and reduce costs.</p>
+                        </div>
 
-                <div className="row mt-3">
-                    <div className="col-md-6">
-                        <h2 className="col_side_heading">Digital Strategy Development</h2>
-                        <h6>Business Strategy developed to help you navigate the path to success</h6>
-                        <p>Navigate the ever-evolving digital landscape and stay ahead of the competition. We work closely with our clients to understand their unique needs and goals, and then create a customized plan that leverages the latest technologies and digital trends to drive growth, improve customer engagement, and achieve measurable results.</p>
                     </div>
-                    <div className="col-md-6">
-                        <img src="/p26.png" alt="" />
+                    <div className="row mt-3">
+                        <div className="col-md-6">
+                            <h2 className="col_side_heading">DEVOPS and Cloud services</h2>
+                            <h6>Elevate your business with modern cloud infrastructure and application solutions</h6>
+                            <p>Maintaining revenue growth in an ever-changing market is a challenge, but it can be met by having the right go-to-market strategy in place and effectively implementing it. Our expert strategists help you identify market opportunities, optimize resource deployment, and achieve sustained outstanding results.</p>
+                        </div>
+                        <div className="col-md-6">
+                            <img src="/p28.png" alt="" />
+                        </div>
+                    </div>
+                    <div className="row mt-3">
+                        <div className="col-md-6">
+                            <img src="/p29.png" alt="" />
+                        </div>
+                        <div className="col-md-6">
+                            <h2 className="col_side_heading">Automation</h2>
+                            <h6>Streamlining success with intelligent automation</h6>
+                            <p>Unlock the full potential of automation by implementing an enterprise-wide approach. Improve processes with AI, design new learning processes and empower employees with self-optimizing AI to solve and anticipate big challenges.</p>
+                        </div>
+                    </div>
+                    <div className="row mt-3">
+                        <div className="col-md-6">
+                            <h2 className="col_side_heading">Mobility</h2>
+                            <h6>Enabling real-time mobile interactions for professional efficiency, business enablement, and collaboration.</h6>
+                            <p>Achieve real-time interactions with customers, employees, and assets from anywhere with our enterprise mobility solutions. Our mobile-first strategy fosters efficiency, business enablement, and collaboration for a truly transformative experience.</p>
+                        </div>
+                        <div className="col-md-6">
+                            <img src="/p30.png" alt="" />
+                        </div>
+                    </div>
+                    <div className="row mt-3">
+                        <div className="col-md-6">
+                            <img src="/p31.png" alt="" />
+                        </div>
+                        <div className="col-md-6">
+                            <h2 className="col_side_heading">Digital Marketing</h2>
+                            <h6>Elevate your brand's digital presence</h6>
+                            <p>Maximize your digital presence and boost your online revenue by implementing our growth-driven digital marketing strategies. To ensure the most effective outcome for our clients, we keep abreast of the latest trends and evaluate their effectiveness through internal testing, in order to determine the most successful strategies.</p>
+                        </div>
                     </div>
                 </div>
-                <div className="row mt-3">
-                    <div className="col-md-6">
-                        <img src="/p27.png" alt="" />
-                    </div>
-                    <div className="col-md-6">
-                        <h2 className="col_side_heading">Data Science and Analytics</h2>
-                        <h6>Drive smarter decisions through data led insights</h6>
-                        <p>Providing organizations with the insights and intelligence needed to make better decisions. Our team of experts use advanced analytics techniques, including machine learning, data visualization, and predictive modeling to turn raw data into actionable insights. We work closely with our clients to understand their specific needs and goals, and deliver customized solutions that drive growth, improve efficiency and reduce costs.</p>
-                    </div>
 
+
+                <div className="mobile_view">
+                    <div className="row mt-3">
+                        <div className="col-md-6">
+                            <img src="/p26.png" alt="" />
+                        </div>
+                        <div className="col-md-6">
+                            <h2 className="col_side_heading">Digital Strategy Development</h2>
+                            <h6>Business Strategy developed to help you navigate the path to success</h6>
+                            <p>Navigate the ever-evolving digital landscape and stay ahead of the competition. We work closely with our clients to understand their unique needs and goals, and then create a customized plan that leverages the latest technologies and digital trends to drive growth, improve customer engagement, and achieve measurable results.</p>
+                        </div>
+
+                    </div>
+                    <div className="row mt-3">
+                        <div className="col-md-6">
+                            <img src="/p27.png" alt="" />
+                        </div>
+                        <div className="col-md-6">
+                            <h2 className="col_side_heading">Data Science and Analytics</h2>
+                            <h6>Drive smarter decisions through data led insights</h6>
+                            <p>Providing organizations with the insights and intelligence needed to make better decisions. Our team of experts use advanced analytics techniques, including machine learning, data visualization, and predictive modeling to turn raw data into actionable insights. We work closely with our clients to understand their specific needs and goals, and deliver customized solutions that drive growth, improve efficiency and reduce costs.</p>
+                        </div>
+
+                    </div>
+                    <div className="row mt-3">
+                        <div className="col-md-6">
+                            <img src="/p28.png" alt="" />
+                        </div>
+                        <div className="col-md-6">
+                            <h2 className="col_side_heading">DEVOPS and Cloud services</h2>
+                            <h6>Elevate your business with modern cloud infrastructure and application solutions</h6>
+                            <p>Maintaining revenue growth in an ever-changing market is a challenge, but it can be met by having the right go-to-market strategy in place and effectively implementing it. Our expert strategists help you identify market opportunities, optimize resource deployment, and achieve sustained outstanding results.</p>
+                        </div>
+
+                    </div>
+                    <div className="row mt-3">
+                        <div className="col-md-6">
+                            <img src="/p29.png" alt="" />
+                        </div>
+                        <div className="col-md-6">
+                            <h2 className="col_side_heading">Automation</h2>
+                            <h6>Streamlining success with intelligent automation</h6>
+                            <p>Unlock the full potential of automation by implementing an enterprise-wide approach. Improve processes with AI, design new learning processes and empower employees with self-optimizing AI to solve and anticipate big challenges.</p>
+                        </div>
+                    </div>
+                    <div className="row mt-3">
+                        <div className="col-md-6">
+                            <img src="/p30.png" alt="" />
+                        </div>
+                        <div className="col-md-6">
+                            <h2 className="col_side_heading">Mobility</h2>
+                            <h6>Enabling real-time mobile interactions for professional efficiency, business enablement, and collaboration.</h6>
+                            <p>Achieve real-time interactions with customers, employees, and assets from anywhere with our enterprise mobility solutions. Our mobile-first strategy fosters efficiency, business enablement, and collaboration for a truly transformative experience.</p>
+                        </div>
+
+                    </div>
+                    <div className="row mt-3">
+                        <div className="col-md-6">
+                            <img src="/p31.png" alt="" />
+                        </div>
+                        <div className="col-md-6">
+                            <h2 className="col_side_heading">Digital Marketing</h2>
+                            <h6>Elevate your brand's digital presence</h6>
+                            <p>Maximize your digital presence and boost your online revenue by implementing our growth-driven digital marketing strategies. To ensure the most effective outcome for our clients, we keep abreast of the latest trends and evaluate their effectiveness through internal testing, in order to determine the most successful strategies.</p>
+                        </div>
+                    </div>
                 </div>
-                <div className="row mt-3">
-                    <div className="col-md-6">
-                        <h2 className="col_side_heading">DEVOPS and Cloud services</h2>
-                        <h6>Elevate your business with modern cloud infrastructure and application solutions</h6>
-                        <p>Maintaining revenue growth in an ever-changing market is a challenge, but it can be met by having the right go-to-market strategy in place and effectively implementing it. Our expert strategists help you identify market opportunities, optimize resource deployment, and achieve sustained outstanding results.</p>
-                    </div>
-                    <div className="col-md-6">
-                        <img src="/p28.png" alt="" />
-                    </div>
-                </div>
-                <div className="row mt-3">
-                    <div className="col-md-6">
-                        <img src="/p29.png" alt="" />
-                    </div>
-                    <div className="col-md-6">
-                        <h2 className="col_side_heading">Automation</h2>
-                        <h6>Streamlining success with intelligent automation</h6>
-                        <p>Unlock the full potential of automation by implementing an enterprise-wide approach. Improve processes with AI, design new learning processes and empower employees with self-optimizing AI to solve and anticipate big challenges.</p>
-                    </div>
-                </div>
-                <div className="row mt-3">
-                    <div className="col-md-6">
-                        <h2 className="col_side_heading">Mobility</h2>
-                        <h6>Enabling real-time mobile interactions for professional efficiency, business enablement, and collaboration.</h6>
-                        <p>Achieve real-time interactions with customers, employees, and assets from anywhere with our enterprise mobility solutions. Our mobile-first strategy fosters efficiency, business enablement, and collaboration for a truly transformative experience.</p>
-                    </div>
-                    <div className="col-md-6">
-                        <img src="/p30.png" alt="" />
-                    </div>
-                </div>
-                <div className="row mt-3">
-                    <div className="col-md-6">
-                        <img src="/p31.png" alt="" />
-                    </div>
-                    <div className="col-md-6">
-                        <h2 className="col_side_heading">Digital Marketing</h2>
-                        <h6>Elevate your brand's digital presence</h6>
-                        <p>Maximize your digital presence and boost your online revenue by implementing our growth-driven digital marketing strategies. To ensure the most effective outcome for our clients, we keep abreast of the latest trends and evaluate their effectiveness through internal testing, in order to determine the most successful strategies.</p>
-                    </div>
-                </div>
+
                 {/* <h5 className="our_team mt-3">Our Team</h5>
                 <div className="row core_team">
                     <div className="col-md-3">

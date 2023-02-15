@@ -34,7 +34,7 @@ export default function careers() {
 
                 </Row>
                 <div className='row mb-3'>
-                    <div className='col-md-6'>
+                    <div className='col-md-6 col-sm-12'>
                         <Form>
                             <Form.Group className="mb-3" controlId="formBasicEmail">
                                 <Form.Label><strong>Name <span className='asteristk'>*</span></strong> </Form.Label>

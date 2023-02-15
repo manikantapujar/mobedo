@@ -20,7 +20,7 @@ export default function contact() {
 
                  
                 <Row className='row_content row_content_form contactpage mb-2' >
-                    <Col sm={7}>
+                    <Col sm={12} md={7}>
                         <Form>
                             <Form.Group className="mb-3" controlId="formBasicEmail">
                                 <Form.Label><strong>Name</strong> </Form.Label>
@@ -29,11 +29,7 @@ export default function contact() {
                                 <Form.Control type="email" placeholder="What is your  email" />
                                 <Form.Label> <strong>Phone</strong>  </Form.Label>
                                 <Form.Control type="number" placeholder="Can we call you?" />
-                                <Form.Label> <strong>Nearest Office</strong>  </Form.Label>
-                                <Form.Control type="email" placeholder="Enter Location" />
-                                <Form.Label> <strong>Industry</strong> </Form.Label>
-                                <Form.Control type="text" placeholder="Industry?" />
-                                <Form.Label> <strong>Reason for Connecting </strong> </Form.Label>
+                                <Form.Label> <strong>Comments</strong> </Form.Label>
                                 <Form.Control type="text" placeholder="What can we do for you?" />
                             </Form.Group>
                             <Link to="contact">
