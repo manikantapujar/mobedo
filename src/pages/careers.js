@@ -18,12 +18,12 @@ export default function careers() {
             <Container fluid className=''>
                 <Row className="">
                     <img src="/p41.jpeg" alt="" />
-                    <Col>
+                    <Col sm={12}>
                         <div className="col_side_heading">
                             <p className="harmo_color">Be a part of us</p>
                         </div>
                     </Col>
-                    <Col className="col_side_content">
+                    <Col className="col_side_content" sm={12}>
                         <p>We aim to create a welcoming and comfortable workplace that
                             promotes integration and synergy. Our values focus on providing an
                             engaging and enlightening environment that drives impact. Join our
