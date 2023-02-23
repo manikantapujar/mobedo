@@ -12,12 +12,12 @@ function Navitem() {
   return (
     <>
       <Navbar collapseOnSelect expand="lg" bg="#ffffff" variant="light" className="maincontainer sticky-top">
-        <Container fluid className='Navbarpage'>
+        <Container className='Navbarpage'>
           <Link to="/">
             <Navbar.Brand >
               <img src="/mobedologo1.png"
                 width="150px"
-                
+
                 className="d-inline-block align-top"
                 alt="React Bootstrap logo"
               />
@@ -36,7 +36,7 @@ function Navitem() {
                 </button>
                 <div className="dropdown-content" id="collasible-nav-dropdown">
                   <NavDropdown.Item><Link to='/starategy'> Strategy</Link></NavDropdown.Item>
-                  <NavDropdown.Item ><Link to='/technology'>Technology</Link></NavDropdown.Item>
+                  <NavDropdown.Item><Link to='/technology'>Technology</Link></NavDropdown.Item>
                   <NavDropdown.Item><Link to='/digital_transformation'>Digital Transformation</Link></NavDropdown.Item>
                   <NavDropdown.Item><Link to='/shared_services'>Shared Services</Link></NavDropdown.Item>
                 </div>
@@ -49,7 +49,7 @@ function Navitem() {
                   <NavDropdown.Item><Link to='/about/#story'> The MOBEDO Story</Link></NavDropdown.Item>
                   <NavDropdown.Item ><Link to='/about/#guides'>What Guides Us</Link></NavDropdown.Item>
                   <NavDropdown.Item><Link to='/about/#coreteam'>Our Core Team</Link></NavDropdown.Item>
-                  <NavDropdown.Item><Link to='/about/#partofus'>Be Part of us</Link></NavDropdown.Item>
+                  {/* <NavDropdown.Item><Link to='/about/#partofus'>Be Part of us</Link></NavDropdown.Item> */}
                 </div>
               </div>
               {/* <NavDropdown className='navlist' title="Services" id="collasible-nav-dropdown">

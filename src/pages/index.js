@@ -21,7 +21,7 @@ export default function index() {
           <img src="/p1.png" alt="" />
           <Col md={8} sm={12} className="col_side_content">
             <p>Growth and transformation are ongoing processes and nothing is ever truly static. We understand that businesses and individuals face new opportunities and challenges every day and that it's crucial to adapt and evolve to stay ahead. We work alongside our clients in navigating this constant change and to unlock their potential for sustainable growth. </p>
-            <Link to="about"><Button className="button btn-warning">About us</Button>{' '}</Link>
+            <Link to="about"><Button className="button btn-warning mb-3">About us</Button>{' '}</Link>
           </Col>
           <Col>
             <div md={4} sm={12} className="col_side_heading">

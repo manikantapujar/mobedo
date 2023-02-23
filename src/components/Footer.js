@@ -14,16 +14,17 @@ export default function footer() {
 
             <div className='row'>
                 <div className='col-md-5'>
-                    <p className="logo mb-0">MOBEDO</p>
                     <div className='row'>
-                        <div class="col-md-4">
-
+                        <div class="col-md-6">
+                            <img src="/mobedologo1.png"  width="200px" className="d-inline-block align-top"
+                                alt="React Bootstrap logo"
+                            />
                         </div>
-                        <div className='col-md-8 email_phone'>
+                        <div className='col-md-6 email_phone'>
                             <p>9849813377</p>
                             <p>info@mobedoconsulting.com</p>
                         </div>
-                <p className='firm_member'>Member firm of the MOBEDO Group</p>
+                        <p className='firm_member'>Member firm of the MOBEDO Group</p>
 
                     </div>
                 </div>
@@ -36,25 +37,25 @@ export default function footer() {
                                 </h5>
                                 <ul className='links_ul'>
                                     <li>
-                                    <Link to='/starategy'>
-                                        STRATEGY PRACTICE
+                                        <Link to='/starategy'>
+                                            Strategy Practice
                                         </Link>
                                     </li>
                                     <li>
-                                    <Link to='/technology'>
-                                        TECHNOLOGY PRACTICE
+                                        <Link to='/technology'>
+                                            Technology Practice
                                         </Link>
                                     </li>
                                     <li>
-                                    <Link to='/digital_transformation'>
-                                        DIGITAL TRANSFORMATION
+                                        <Link to='/digital_transformation'>
+                                            Digital Transformation
                                         </Link>
-                                        </li>
+                                    </li>
                                     <li>
-                                    <Link to='/shared_services'>
-                                        SHARED SERVICES
+                                        <Link to='/shared_services'>
+                                            Shared Services
                                         </Link>
-                                        </li>
+                                    </li>
                                 </ul>
                             </div>
                         </div>
@@ -93,22 +94,22 @@ export default function footer() {
                                 <ul className='links_ul'>
                                     <li>
                                         <Link to='/about/#story'>
-                                        The MOBEDO Story
+                                            The MOBEDO Story
                                         </Link>
                                     </li>
                                     <li>
-                                    <Link to='/about/#guides'>
-                                        What guides us
+                                        <Link to='/about/#guides'>
+                                            What guides us
                                         </Link>
                                     </li>
                                     <li>
-                                    <Link to='/about/#coreteam'>
-                                        Our Core Team
+                                        <Link to='/about/#coreteam'>
+                                            Our Core Team
                                         </Link>
                                     </li>
                                     <li>
-                                    <Link to='/about/#partofus'>
-                                        Be Part of us
+                                        <Link to='/about/#partofus'>
+                                            Be Part of us
                                         </Link>
                                     </li>
                                 </ul>
@@ -119,35 +120,35 @@ export default function footer() {
             </div>
             <div className='row line_above'>
                 <div className='col-md-8'>
-                <ul className='privacy_policy'>
-                    <li>© {(new Date().getFullYear())} MOBEDO Consulting </li>
-                    <li className='under_line' > <Link className='under_line' to='/privacypolicy' > Privacy Policy</Link></li>
-                    {/* <li className='under_line'>General Conditions</li> */}
-                </ul>
+                    <ul className='privacy_policy'>
+                        <li>© {(new Date().getFullYear())} MOBEDO Consulting </li>
+                        <li className='under_line' > <Link className='under_line' to='/privacypolicy' > Privacy Policy</Link></li>
+                        {/* <li className='under_line'>General Conditions</li> */}
+                    </ul>
                 </div>
                 <div className='col-md-4 text-end'>
-                <ul className='socialmediaicons'>
-                    <li>
-                        <div>
-                            <a href="https://www.facebook.com/profile.php?id=100083091289444&mibextid=ZbWKwL" target="_blank"><img src="/fb2.png"  alt="" /></a>
-                        </div>
-                    </li>
-                    <li>
-                        <div>
-                        <a href="https://www.linkedin.com/in/mobedo-consulting-8450ba239" target="_blank"><img src="/linkedin.png"  alt="" /></a>
-                        </div>
-                    </li>
-                    <li>
-                        <div>
-                            <img src="/twitter.png" alt="" />
-                        </div>
-                    </li>
-                    <li>
-                        <div>
-                            <img src="/youtube1.png" alt="" />
-                        </div>
-                    </li>
-                </ul>
+                    <ul className='socialmediaicons'>
+                        <li>
+                            <div>
+                                <a href="https://www.facebook.com/profile.php?id=100083091289444&mibextid=ZbWKwL" target="_blank"><img src="/fb2.png" alt="" /></a>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <a href="https://www.linkedin.com/in/mobedo-consulting-8450ba239" target="_blank"><img src="/linkedin.png" alt="" /></a>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <img src="/twitter.png" alt="" />
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <img src="/youtube1.png" alt="" />
+                            </div>
+                        </li>
+                    </ul>
                 </div>
             </div>
 
