@@ -15,14 +15,14 @@ export default function footer() {
             <div className='row'>
                 <div className='col-md-5'>
                     <div className='row'>
-                        <div class="col-md-6">
+                        <div class="col-lg-7 col-md-12 col-sm-6 img_logo_ft">
                             <img src="/mobedologo1.png"  width="200px" className="d-inline-block align-top"
                                 alt="React Bootstrap logo"
                             />
                         </div>
-                        <div className='col-md-6 email_phone'>
-                            <p>9849813377</p>
-                            <p>info@mobedoconsulting.com</p>
+                        <div className='col-lg-5 col-md-12 col-sm-6 email_phone'>
+                            <p className='mb-1'>9849813377</p>
+                            <p className='mb-1'>info@mobedoconsulting.com</p>
                         </div>
                         <p className='firm_member'>Member firm of the MOBEDO Group</p>
 
@@ -30,7 +30,7 @@ export default function footer() {
                 </div>
                 <div className='col-md-7'>
                     <div className='row'>
-                        <div className='col-md-4'>
+                        <div className='col-md-4 col-sm-4'>
                             <div className='linkdiv' >
                                 <h5 className='links'>
                                     Service Areas
@@ -59,7 +59,7 @@ export default function footer() {
                                 </ul>
                             </div>
                         </div>
-                        <div className='col-md-4'>
+                        <div className='col-md-4 col-sm-4'>
                             <div className='linkdiv' >
                                 <h5 className='links'>
                                     Industries
@@ -86,7 +86,7 @@ export default function footer() {
                                 </ul>
                             </div>
                         </div>
-                        <div className='col-md-4'>
+                        <div className='col-md-4 col-sm-4'>
                             <div className='linkdiv' >
                                 <h5 className='links'>
                                     About Us

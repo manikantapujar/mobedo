@@ -103,7 +103,7 @@ input[type=number] {
     font-size: 26px !important;
 }
 .being_cont{
-    color: #42e742;
+    color: #92d050;
 }
 .being_cont span{
     color: #0047ab;
@@ -383,7 +383,7 @@ input[type=number] {
 }
 
 .startegy_page h6 {
-    color: #42e742;
+    color: #92d050;
     font-size: 22px;
     font-weight: 700;
 }
@@ -398,7 +398,7 @@ input[type=number] {
     margin-right: 15px;
 }
 .img_row_team h5{
-    color: #42e742;
+    color: #92d050;
 }
 
 .img_row_team img {
@@ -413,11 +413,11 @@ h5.our_team {
 }
 
 .core_team h5, .our_team h5 {
-    color: #42e742;
+    color: #92d050;
     font-weight: 700;
 }
 .harmo_color{
-    color: #42e742;
+    color: #92d050;
 }
 
 .mission_vision li span {
@@ -502,7 +502,7 @@ h5.our_team {
 }
 
 .col_vision h3 {
-    color: #42e742;
+    color: #92d050;
     font-weight: 700;
 }
 
@@ -526,7 +526,7 @@ h5.our_team {
     padding-bottom: 10px;
     padding-left: 30px;
     font-weight: 600;
-    color: #42e742;
+    color: #92d050;
     font-size: 30px;
 }
 
@@ -642,14 +642,26 @@ padding:0px  30px 10px;
 .navbar-toggler:focus{
     box-shadow: none;
 }
+
 /* end of career page */
+@media(min-width:767px) and (max-width:991px){
+    .email_phone,.img_logo_ft{
+        margin-top: 10px;
+    }
+}
 @media(max-width:767px) {
+    .navbar{
+        padding: 8px 15px !important; 
+    }
     .btn_nav_list{
-        padding-bottom: 10px;
+        padding-bottom: 10px !important;
     }
     .socialmediaicons{
         float: none;
-        margin: 0px auto;
+        margin: 0px auto 10px ;
+    }
+    .email_phone,.img_logo_ft{
+        margin-top: 10px;
     }
     .col-md-4.text-end{
         text-align: center !important;
@@ -665,7 +677,7 @@ padding:0px  30px 10px;
     }
     /* navbar css start */
     .sticky-top {
-        padding: 0px !important;
+        padding: 8px 15px!important;
     }
 
     /* navbar css start */
@@ -1066,7 +1078,7 @@ display: block;
 .dropdown-content-new{
     position: absolute;
     top: -30px;
-    right: 190px;
+    right: 200px;
 }
 
 .dropdown-new .dropbtn {
