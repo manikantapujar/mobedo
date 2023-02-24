@@ -91,6 +91,9 @@ input[type=number] {
 .navbar{
     padding: 0.5rem 1rem;
 }
+.navbar{
+    /* padding: 0.5rem 1rem; */
+}
 
 .col_side_heading {
     color: #143250;
