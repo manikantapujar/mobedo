@@ -12,9 +12,10 @@ export default function startergy() {
             {/* <Header /> */}
             <Navbar />
             <Container fluid className=' startegy_page'>
-                <Row className="row_content mt-0">
-                    <img src="/p7.png" alt="" />
-                    <h1 className="p_h_title">Strategy Consulting</h1>
+                <img src="/p7.png" alt="" />
+                <h1 className="p_h_title">Strategy Consulting</h1>
+                <Row className="row_content mt-0 padding_content">
+
                     <Col md={6} sm={12}>
                         <div className="col_side_heading">
                             <p className="blue_color">Strategies that Deliver Results.</p>
@@ -25,7 +26,7 @@ export default function startergy() {
                     </Col>
                 </Row>
                 <div className="desktop_view">
-                    <div className="row mt-3">
+                    <div className="row mt-4 padding_content" id="st_one">
                         <div className="col-md-7 align-self-center">
                             <h2 className="col_side_heading">Core Business Transformation</h2>
                             <h6>Innovating for growth, transforming for success</h6>
@@ -35,7 +36,7 @@ export default function startergy() {
                             <img src="/p8.png" alt="" />
                         </div>
                     </div>
-                    <div className="row mt-3">
+                    <div className="row mt-4 padding_content" id="st_two">
                         <div className="col-md-5 align-self-center">
                             <img src="/p9.png" alt="" />
                         </div>
@@ -46,7 +47,7 @@ export default function startergy() {
                         </div>
 
                     </div>
-                    <div className="row mt-3">
+                    <div className="row mt-4 padding_content" id="st_three">
                         <div className="col-md-7 align-self-center">
                             <h2 className="col_side_heading">Marketing & Go-To-Market Strategy</h2>
                             <h6>Bringing your value to market, driving growth through strategy </h6>
@@ -56,7 +57,7 @@ export default function startergy() {
                             <img src="/p10.png" alt="" />
                         </div>
                     </div>
-                    <div className="row mt-3">
+                    <div className="row mt-4 padding_content" id="st_four">
                         <div className="col-md-5 align-self-center">
                             <img src="/p11.png" alt="" />
                         </div>
@@ -66,7 +67,7 @@ export default function startergy() {
                             <p>Avoid innovation pitfalls with MOBEDO's strategy-led, action-biased and agile approach. Whether it's in consumer products or B2B, product, service or business model, we collaborate closely with our clients to enhance their innovation system and make innovation happen.</p>
                         </div>
                     </div>
-                    <div className="row mt-3">
+                    <div className="row mt-4 padding_content" id="st_five">
                         <div className="col-md-7 align-self-center">
                             <h2 className="col_side_heading">Business Strategy Development</h2>
                             <h6>Business Strategy developed to help you navigate the path to success</h6>
@@ -80,7 +81,7 @@ export default function startergy() {
 
 
                 <div className="mobile_view">
-                    <div className="row mt-3">
+                    <div className="row mt-3" id="st_one_m">
                         <div className="col-md-5 align-self-center">
                             <img src="/p8.png" alt="" />
                         </div>
@@ -91,7 +92,7 @@ export default function startergy() {
                         </div>
 
                     </div>
-                    <div className="row mt-3">
+                    <div className="row mt-3" id="st_two_m">
                         <div className="col-md-5 align-self-center">
                             <img src="/p9.png" alt="" />
                         </div>
@@ -102,7 +103,7 @@ export default function startergy() {
                         </div>
 
                     </div>
-                    <div className="row mt-3">
+                    <div className="row mt-3" id="st_three_m">
                         <div className="col-md-5 align-self-center">
                             <img src="/p10.png" alt="" />
                         </div>
@@ -113,7 +114,7 @@ export default function startergy() {
                         </div>
 
                     </div>
-                    <div className="row mt-3">
+                    <div className="row mt-3" id="st_four_m">
                         <div className="col-md-5 align-self-center">
                             <img src="/p11.png" alt="" />
                         </div>
@@ -123,7 +124,7 @@ export default function startergy() {
                             <p>Avoid innovation pitfalls with MOBEDO's strategy-led, action-biased and agile approach. Whether it's in consumer products or B2B, product, service or business model, we collaborate closely with our clients to enhance their innovation system and make innovation happen.</p>
                         </div>
                     </div>
-                    <div className="row mt-3">
+                    <div className="row mt-3" id="st_five_m">
                         <div className="col-md-5 align-self-center">
                             <img src="/p12.png" alt="" />
                         </div>

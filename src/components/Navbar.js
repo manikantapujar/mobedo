@@ -30,7 +30,7 @@ function Navitem() {
             </Nav>
             <Nav className='navitems'>
               {/* <Link to="/"><Nav className='navlist'  >Home</Nav></Link> */}
-              <div className="dropdown">
+              {/* <div className="dropdown">
                 <button className="dropbtn navlist">SERVICES
                   <i className="fa fa-caret-down"></i>
                 </button>
@@ -40,7 +40,99 @@ function Navitem() {
                   <NavDropdown.Item><Link to='/digital_transformation'>Digital Transformation</Link></NavDropdown.Item>
                   <NavDropdown.Item><Link to='/shared_services'>Shared Services</Link></NavDropdown.Item>
                 </div>
+              </div> */}
+              <div className="dropdown">
+                <button className="dropbtn navlist">SERVICES
+                  <i className="fa fa-caret-down"></i>
+                </button>
+                <div className="dropdown-content" id="collasible-nav-dropdown">
+                  <div className='dropdown-new'>
+                    <li className="dropbtn navlist">Strategy</li>
+                    <div className="dropdown-content-new" id="collasible-nav-dropdown-new">
+                      <div className='desktop_view'>
+                        <NavDropdown.Item><Link to='/starategy/#st_one'> Core Business Transformation</Link></NavDropdown.Item>
+                        <NavDropdown.Item ><Link to='/starategy/#st_two'>Branding, Positioning & Messaging</Link></NavDropdown.Item>
+                        <NavDropdown.Item><Link to='/starategy/#st_three'>Marketing & Go-To-Market Strategy</Link></NavDropdown.Item>
+                        <NavDropdown.Item><Link to='/starategy/#st_four'> Innovation Strategy</Link></NavDropdown.Item>
+                        <NavDropdown.Item ><Link to='/starategy/#st_five'>Business Strategy Development</Link></NavDropdown.Item>
+                      </div>
+                      <div className='mobile_view'>
+                        <NavDropdown.Item><Link to='/starategy/#st_one_m'> Core Business Transformation</Link></NavDropdown.Item>
+                        <NavDropdown.Item ><Link to='/starategy/#st_two_m'>Branding, Positioning & Messaging</Link></NavDropdown.Item>
+                        <NavDropdown.Item><Link to='/starategy/#st_three_m'>Marketing & Go-To-Market Strategy</Link></NavDropdown.Item>
+                        <NavDropdown.Item><Link to='/starategy/#st_four_m'> Innovation Strategy</Link></NavDropdown.Item>
+                        <NavDropdown.Item ><Link to='/starategy/#st_five_m'>Business Strategy Development</Link></NavDropdown.Item>
+                      </div>
+                    </div>
+                  </div>
+                  <div className='dropdown-new-two'>
+                    <li className="dropbtn navlist">Technology</li>
+                    <div className="dropdown-content-new-two" id="collasible-nav-dropdown-new-two">
+                      <div className='desktop_view'>
+                        <NavDropdown.Item><Link to='/technology/#t_one'> Enterprise Applications</Link></NavDropdown.Item>
+                        <NavDropdown.Item ><Link to='/technology/#t_two'>Technology Solutions Delivery</Link></NavDropdown.Item>
+                        <NavDropdown.Item><Link to='/technology/#t_three'>WEB3</Link></NavDropdown.Item>
+                        <NavDropdown.Item><Link to='/technology/#t_four'> CyberSecurity Services</Link></NavDropdown.Item>
+                        <NavDropdown.Item ><Link to='/technology/#t_five'>UI/UX Strategy & Design</Link></NavDropdown.Item>
+                        <NavDropdown.Item ><Link to='/technology/#t_six'>Metaverse</Link></NavDropdown.Item>
+                      </div>
+                      <div className='mobile_view'>
+                        <NavDropdown.Item><Link to='/technology/#t_one_m'> Enterprise Applications</Link></NavDropdown.Item>
+                        <NavDropdown.Item ><Link to='/technology/#t_two_m'>Technology Solutions Delivery</Link></NavDropdown.Item>
+                        <NavDropdown.Item><Link to='/technology/#t_three_m'>WEB3</Link></NavDropdown.Item>
+                        <NavDropdown.Item><Link to='/technology/#t_four_m'> CyberSecurity Services</Link></NavDropdown.Item>
+                        <NavDropdown.Item ><Link to='/technology/#t_five_m'>UI/UX Strategy & Design</Link></NavDropdown.Item>
+                        <NavDropdown.Item ><Link to='/technology/#t_six_m'>Metaverse</Link></NavDropdown.Item>
+                      </div>
+                    </div>
+                  </div>
+                  <div className='dropdown-new-three'>
+                    <li className="dropbtn navlist">Digital Transformation</li>
+                    <div className='desktop_view'>
+                      <div className="dropdown-content-new-three" id="collasible-nav-dropdown-new-three">
+                        <NavDropdown.Item><Link to='/digital_transformation/#dg_one'> Digital Strategy Development</Link></NavDropdown.Item>
+                        <NavDropdown.Item ><Link to='/digital_transformation/#dg_two'>Data Science and Analytics</Link></NavDropdown.Item>
+                        <NavDropdown.Item><Link to='/digital_transformation/#dg_three'>DEVOPS and Cloud services</Link></NavDropdown.Item>
+                        <NavDropdown.Item><Link to='/digital_transformation/#dg_four'> Automation</Link></NavDropdown.Item>
+                        <NavDropdown.Item ><Link to='/digital_transformation/#dg_five'>Mobility</Link></NavDropdown.Item>
+                        <NavDropdown.Item ><Link to='/digital_transformation/#dg_six'>Digital Marketing</Link></NavDropdown.Item>
+                      </div>
+                    </div>
+                    <div className='mobile_view'>
+                      <div className="dropdown-content-new-three" id="collasible-nav-dropdown-new-three">
+                        <NavDropdown.Item><Link to='/digital_transformation/#dg_one_m'> Digital Strategy Development</Link></NavDropdown.Item>
+                        <NavDropdown.Item ><Link to='/digital_transformation/#dg_two_m'>Data Science and Analytics</Link></NavDropdown.Item>
+                        <NavDropdown.Item><Link to='/digital_transformation/#dg_three_m'>DEVOPS and Cloud services</Link></NavDropdown.Item>
+                        <NavDropdown.Item><Link to='/digital_transformation/#dg_four_m'> Automation</Link></NavDropdown.Item>
+                        <NavDropdown.Item ><Link to='/digital_transformation/#dg_five_m'>Mobility</Link></NavDropdown.Item>
+                        <NavDropdown.Item ><Link to='/digital_transformation/#dg_six_m'>Digital Marketing</Link></NavDropdown.Item>
+                      </div>
+                    </div>
+                  </div>
+                  <div className='dropdown-new-four'>
+                    <li className="dropbtn navlist">Shared Services</li>
+                    <div className='desktop_view'>
+                      <div className="dropdown-content-new-four" id="collasible-nav-dropdown-new-four">
+                        <NavDropdown.Item><Link to='/shared_services/#sh_one'> Co-Founder-As-a-Service</Link></NavDropdown.Item>
+                        <NavDropdown.Item ><Link to='/shared_services/#sh_two'>MVP- As-a-Service</Link></NavDropdown.Item>
+                        <NavDropdown.Item><Link to='/shared_services/#sh_three'>Innovation-As-A-Service</Link></NavDropdown.Item>
+                        <NavDropdown.Item><Link to='/shared_services/#sh_four'>Testing-as-a-Service</Link></NavDropdown.Item>
+                      </div>
+                    </div>
+                    <div className='mobile_view'>
+                      <div className="dropdown-content-new-four" id="collasible-nav-dropdown-new-four">
+                        <NavDropdown.Item><Link to='/shared_services/#sh_one_m'> Co-Founder-As-a-Service</Link></NavDropdown.Item>
+                        <NavDropdown.Item ><Link to='/shared_services/#sh_two_m'>MVP- As-a-Service</Link></NavDropdown.Item>
+                        <NavDropdown.Item><Link to='/shared_services/#sh_three_m'>Innovation-As-A-Service</Link></NavDropdown.Item>
+                        <NavDropdown.Item><Link to='/shared_services/#sh_four_m'>Testing-as-a-Service</Link></NavDropdown.Item>
+                      </div>
+                    </div>
+
+                  </div>
+
+                </div>
               </div>
+
               <div className="dropdown" >
                 <button className="dropbtn navlist">ABOUT US
                   <i className="fa fa-caret-down"></i>

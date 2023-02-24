@@ -15,10 +15,11 @@ const AboutPage = () => {
     <>
       {/* <Header /> */}
       <Navbar />
-      <Container className="maincontainer font startegy_page" >
-        <Row className="row_content mt-0" id="story">
-          <img src="/p31.png" alt="" />
-          <h1 className="p_h_title">The MOBEDO Story</h1>
+      <Container fluid className="maincontainer font startegy_page" >
+        <img src="/p31.png" alt="" />
+        <h1 className="p_h_title">The MOBEDO Story</h1>
+        <Row className="row_content mt-0 padding_content" id="story">
+
           <Col>
             <div className="">
               <ul>
@@ -37,10 +38,10 @@ const AboutPage = () => {
             </div>
           </Col>
         </Row>
+        <img src="/p32.png" alt="" />
+        <h1 className="p_h_title">What Guides us - Our Essence </h1>
+        <Row className="row_content mt-0 padding_content" id="guides">
 
-        <Row className="row_content mt-3" id="guides">
-          <img src="/p32.png" alt="" />
-          <h1 className="p_h_title">What Guides us - Our Essence </h1>
           <Col>
             <div className="mission_vision">
               <ul>
@@ -102,9 +103,10 @@ const AboutPage = () => {
 
           </div>
         </div>
-        <Row className="row_content mt-5" id="coreteam">
-          <img src="/p33.png" alt="" />
+        <img className=" mt-5" src="/p33.png" alt="" />
           <h1 className="p_h_title">Our Core Team</h1>
+        <Row className="row_content padding_content" id="coreteam">
+         
           <Col>
             <div className="">
               <ul>
@@ -113,8 +115,8 @@ const AboutPage = () => {
             </div>
           </Col>
         </Row>
-        <h5 className="our_team   mt-3">Our Team</h5>
-        <div className="row core_team">
+        <h5 className="our_team   padding_content mt-3">Our Team</h5>
+        <div className="row core_team padding_content">
           <div className="col-md-3">
             <div className="img_row_team">
               <img src="/t1.jpg" alt="" />

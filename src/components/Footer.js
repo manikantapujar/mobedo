@@ -119,14 +119,14 @@ export default function footer() {
                 </div>
             </div>
             <div className='row line_above'>
-                <div className='col-md-8'>
+                <div className='col-md-6'>
                     <ul className='privacy_policy'>
                         <li>© {(new Date().getFullYear())} MOBEDO Consulting </li>
                         <li className='under_line' > <Link className='under_line' to='/privacypolicy' > Privacy Policy</Link></li>
                         {/* <li className='under_line'>General Conditions</li> */}
                     </ul>
                 </div>
-                <div className='col-md-4 text-end'>
+                <div className='col-md-6 text-end'>
                     <ul className='socialmediaicons'>
                         <li>
                             <div>

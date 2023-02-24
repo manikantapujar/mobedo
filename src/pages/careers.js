@@ -16,8 +16,12 @@ export default function careers() {
             {/* <Header /> */}
             <Navbar />
             <Container fluid className=''>
-                <Row className="">
-                    <img src="/p41.jpeg" alt="" />
+                <Row>
+                <img src="/p41.jpeg" alt="" />
+
+                </Row>
+
+                <Row className="padding_content">
                     <Col sm={12}>
                         <div className="col_side_heading">
                             <p className="harmo_color">Be a part of us</p>
@@ -33,7 +37,7 @@ export default function careers() {
                     </Col>
 
                 </Row>
-                <div className='row mb-3'>
+                <div className='row mb-3 padding_content'>
                     <div className='col-md-6 col-sm-12'>
                         <Form>
                             <Form.Group className="mb-3" controlId="formBasicEmail">

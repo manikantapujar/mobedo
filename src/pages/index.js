@@ -17,8 +17,8 @@ export default function index() {
     <>
       <Navbar />
       <Container fluid className="maincontainer font homepage">
-        <Row className="">
-          <img src="/p1.png" alt="" />
+        <img src="/p1.png" alt="" />
+        <Row className="padding_content">
           <Col md={8} sm={12} className="col_side_content">
             <p>Growth and transformation are ongoing processes and nothing is ever truly static. We understand that businesses and individuals face new opportunities and challenges every day and that it's crucial to adapt and evolve to stay ahead. We work alongside our clients in navigating this constant change and to unlock their potential for sustainable growth. </p>
             <Link to="about"><Button className="button btn-warning mb-3">About us</Button>{' '}</Link>
@@ -29,9 +29,10 @@ export default function index() {
             </div>
           </Col>
         </Row>
-        <Row className="row_content">
-          <img src="/p2.png" alt="" />
-          <h2 className="p_h_title">Our Proposition</h2>
+        <img src="/p2.png" alt="" />
+        <h2 className="p_h_title">Our Proposition</h2>
+        <Row className="row_content padding_content">
+
           <ul className="mb-0">
             <li>A <b> consecrated dedication</b> to working alongside our clients on their technology, strategy, and innovation needs</li>
             <li>A multidisciplinary team that goes a long way back with <b> mutual respect </b> for each other and with a balanced depth of expertise and experience that complements each others skills well</li>
@@ -40,10 +41,9 @@ export default function index() {
           </ul>
 
         </Row>
-
-        <Row className="row_content">
-          <img src="/p3.png" alt="" />
-          <h2 className="p_h_title">Our Practice Areas</h2>
+        <img src="/p3.png" alt="" />
+        <h2 className="p_h_title">Our Practice Areas</h2>
+        <Row className="row_content padding_content">
           <Col>
             <div className="col_side_heading">
               <p className="harmo_color">Harmonious Solutions.</p>
