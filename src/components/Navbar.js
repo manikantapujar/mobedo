@@ -113,18 +113,18 @@ function Navitem() {
                     <li className="dropbtn navlist">Shared Services</li>
                     <div className='desktop_view'>
                       <div className="dropdown-content-new-four" id="collasible-nav-dropdown-new-four">
-                        <NavDropdown.Item><Link to='/shared_services/#sh_one'> Co-Founder-As-a-Service</Link></NavDropdown.Item>
-                        <NavDropdown.Item ><Link to='/shared_services/#sh_two'>MVP- As-a-Service</Link></NavDropdown.Item>
-                        <NavDropdown.Item><Link to='/shared_services/#sh_three'>Innovation-As-A-Service</Link></NavDropdown.Item>
-                        <NavDropdown.Item><Link to='/shared_services/#sh_four'>Testing-as-a-Service</Link></NavDropdown.Item>
+                        <NavDropdown.Item><Link to='/shared_services/#sh_one'> Co-Founder as Service</Link></NavDropdown.Item>
+                        <NavDropdown.Item ><Link to='/shared_services/#sh_two'>MVP as a Service</Link></NavDropdown.Item>
+                        <NavDropdown.Item><Link to='/shared_services/#sh_three'>Innovation as a Service</Link></NavDropdown.Item>
+                        <NavDropdown.Item><Link to='/shared_services/#sh_four'>Testing as a Service</Link></NavDropdown.Item>
                       </div>
                     </div>
                     <div className='mobile_view'>
                       <div className="dropdown-content-new-four" id="collasible-nav-dropdown-new-four">
-                        <NavDropdown.Item><Link to='/shared_services/#sh_one_m'> Co-Founder-As-a-Service</Link></NavDropdown.Item>
-                        <NavDropdown.Item ><Link to='/shared_services/#sh_two_m'>MVP- As-a-Service</Link></NavDropdown.Item>
-                        <NavDropdown.Item><Link to='/shared_services/#sh_three_m'>Innovation-As-A-Service</Link></NavDropdown.Item>
-                        <NavDropdown.Item><Link to='/shared_services/#sh_four_m'>Testing-as-a-Service</Link></NavDropdown.Item>
+                        <NavDropdown.Item><Link to='/shared_services/#sh_one_m'> Co-Founder as a Service</Link></NavDropdown.Item>
+                        <NavDropdown.Item ><Link to='/shared_services/#sh_two_m'>MVP as a Service</Link></NavDropdown.Item>
+                        <NavDropdown.Item><Link to='/shared_services/#sh_three_m'>Innovation as a Service</Link></NavDropdown.Item>
+                        <NavDropdown.Item><Link to='/shared_services/#sh_four_m'>Testing as a Service</Link></NavDropdown.Item>
                       </div>
                     </div>
 

@@ -100,7 +100,7 @@ input[type=number] {
     font-weight: 600;
     line-height: 1.2;
     margin-top: 0px;
-    font-size: 26px !important;
+    font-size: 44px !important;
 }
 .being_cont{
     color: #92d050;
@@ -112,8 +112,17 @@ input[type=number] {
     color: black;
     font-weight: 400;
     line-height: 1.2;
-    font-size: 20px !important;
+    font-size: 26px !important;
     margin-top: 0px !important;
+}
+.mt-4{
+    margin-top: 2rem !important;
+}
+li{
+    font-size: 20px;
+}
+.align-self-center p{
+    font-size: 20px;
 }
 
 .video_content {
@@ -634,7 +643,7 @@ h5.our_team {
     display: none;
 }
 .container-fluid{
-padding:0px  30px 10px;
+padding:0px  80px 10px;
 }
 .padding_content{
     padding: 0px 30px;
@@ -650,6 +659,9 @@ padding:0px  30px 10px;
     }
 }
 @media(max-width:767px) {
+    .mt-4{
+        margin-top: 1.5rem !important;
+    }
     .navbar{
         padding: 8px 15px !important; 
     }
@@ -1078,7 +1090,7 @@ display: block;
 .dropdown-content-new{
     position: absolute;
     top: -30px;
-    right: 200px;
+    right: 190px;
 }
 
 .dropdown-new .dropbtn {
