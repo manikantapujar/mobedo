@@ -18,17 +18,28 @@ export default function index() {
       <Navbar />
       <Container fluid className="maincontainer font homepage">
         <img src="/p1.png" alt="" />
-        <Row className="padding_content">
+        <Row className="padding_content align-self-center">
           <Col md={8} sm={12} className="col_side_content">
-            <p>Growth and transformation are ongoing processes and nothing is ever truly static. We understand that businesses and individuals face new opportunities and challenges every day and that it's crucial to adapt and evolve to stay ahead. We work alongside our clients in navigating this constant change and to unlock their potential for sustainable growth. </p>
-            <Link to="about"><Button className="button btn-warning mb-3">About us</Button>{' '}</Link>
+            <p className="mb-0">Growth and transformation are ongoing processes and nothing is ever truly static. We understand that businesses and individuals face new opportunities and challenges every day and that it's crucial to adapt and evolve to stay ahead. We work alongside our clients in navigating this constant change and to unlock their potential for sustainable growth. </p>
+            
           </Col>
-          <Col>
-            <div md={4} sm={12} className="col_side_heading">
-              <p className="being_cont">BEING TO BECOMING The <span> MOBEDO</span> Promise .</p>
+          <Col className="align-self-center">
+            <div md={4} sm={12} className="col_side_heading   text-center">
+              <p  className="being_cont mb-0">BEING TO BECOMING The <span> MOBEDO</span> Promise .</p>
             </div>
           </Col>
         </Row>
+        <div className="row  margin-top-minus mb-4">
+          <div className="col-md-6">
+          <div className="text-center ">
+            <Link to="about"><Button className="button btn-warning">About us</Button>{' '}</Link>
+            </div>
+            <div className="col-md-6">
+
+            </div>
+          </div>
+        </div>
+        
         <img src="/p2.png" alt="" />
         <h2 className="p_h_title">Our Proposition</h2>
         <Row className="row_content padding_content">
@@ -44,12 +55,12 @@ export default function index() {
         <img src="/p3.png" alt="" />
         <h2 className="p_h_title">Our Practice Areas</h2>
         <Row className="row_content padding_content">
-          <Col>
-            <div className="col_side_heading">
+          <Col className="align-self-center ">
+            <div className="col_side_heading text-center">
               <p className="harmo_color">Harmonious Solutions.</p>
             </div>
           </Col>
-          <Col className="col_side_content">
+          <Col className="col_side_content align-self-center ">
             <p>There is an unusual coordination between entities of different types. The emergent is distinct from its component parts and cannot be reduced to the mere sum or difference of these parts. </p>
           </Col>
 
@@ -58,33 +69,40 @@ export default function index() {
         <div className="row mt-2 mb-3">
           <div className="col-md-4 col_bg_sc">
             <div className="row">
+<div className="col-md-2">
 
+</div>
               <div className="col-md-5">
                 <p className="mb-0">STRATEGY </p><p> CONSULTING</p>
               </div>
-              <div className="col-md-7">
+              <div className="col-md-5">
               </div>
             </div>
 
           </div>
           <div className="col-md-4 col_bg_tc">
             <div className="row">
+            <div className="col-md-2">
+
+</div>
 
               <div className="col-md-5">
                 <p className="mb-0">TECHNOLOGY </p> <p>CONSULTING</p>
               </div>
-              <div className="col-md-7">
+              <div className="col-md-5">
               </div>
 
             </div>
           </div>
           <div className="col-md-4 col_bg_dt">
             <div className="row">
+            <div className="col-md-2">
 
+</div>
               <div className="col-md-5">
                 <p className="mb-0">DIGITAL  </p>  <p>TRANSFORMATION</p>
               </div>
-              <div className="col-md-7">
+              <div className="col-md-5">
               </div>
             </div>
 

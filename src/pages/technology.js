@@ -14,13 +14,13 @@ export default function technology() {
             <Container fluid className='startegy_page'>
                 <img src="/p13.png" alt="" />
                 <h1 className="p_h_title">Technology Consulting</h1>
-                <Row className="row_content mt-0 padding_content">
-                    <Col md={6} sm={12} className="">
-                        <div className="col_side_heading">
+                <Row className="row_content  padding_content ">
+                    <Col md={6} sm={12} className="align-self-center">
+                        <div className="col_side_heading text-center">
                             <p className="blue_color">Leading the way in technology, pushing the boundaries of innovation </p>
                         </div>
                     </Col>
-                    <Col md={6} sm={12} className="col_side_content">
+                    <Col md={6} sm={12} className="col_side_content align-self-center">
                         <p>Maximize the value of technology for your business with our Technology Development & Consulting practice. Our experts help shape technology visions, execute digital transformation and create sustainable value from investments.</p>
                     </Col>
                 </Row>

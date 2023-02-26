@@ -15,14 +15,14 @@ export default function digitaltransformation() {
             <Container fluid className='startegy_page'>
             <img src="/p25.png" alt="" />
                     <h1 className="p_h_title">Digital Transformation</h1>
-                <Row className="row_content mt-0 padding_content">
+                <Row className="row_content  padding_content">
                     
-                    <Col md={6} sm={12}>
-                        <div className="col_side_heading">
+                    <Col md={6} sm={12} className="align-self-center">
+                        <div className="col_side_heading  text-center">
                             <p className="blue_color">Empowering change, driving success through digital transformation .</p>
                         </div>
                     </Col>
-                    <Col md={6} sm={12} className="col_side_content">
+                    <Col md={6} sm={12} className="col_side_content align-self-center">
                         <p>Use data and digital to revolutionize your products and production methods. Harness the power of cloud, AI/ML, 5G, robotics, data science and AR/VR for enhanced resilience, efficiency, and sustainability in core operations. Do all this while also creating personalized experiences and intelligent products.</p>
                     </Col>
                 </Row>

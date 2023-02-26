@@ -14,14 +14,14 @@ export default function sharedservices() {
             <Container fluid className='startegy_page'>
                 <img src="/p20.png" alt="" />
                 <h1 className="p_h_title">Shared Services</h1>
-                <Row className="row_content mt-0 padding_content">
+                <Row className="row_content padding_content">
 
                     <Col md={6} sm={12}>
-                        <div className="col_side_heading">
+                        <div className="col_side_heading align-self-center text-center">
                             <p className="blue_color">Efficiency at Scale: Unlocking the Power of Shared Services</p>
                         </div>
                     </Col>
-                    <Col md={6} sm={12} className="col_side_content">
+                    <Col md={6} sm={12} className="col_side_content align-self-center">
                         <p>MOBEDO expertise and experience offering shared services will help businesses streamline processes, reduce costs, and improve efficiency by centralizing and standardizing common functions across the organization. </p>
                     </Col>
                 </Row>

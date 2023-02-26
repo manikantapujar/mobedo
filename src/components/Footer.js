@@ -15,16 +15,26 @@ export default function footer() {
             <div className='row'>
                 <div className='col-md-5'>
                     <div className='row'>
-                        <div class="col-lg-7 col-md-12 col-sm-6 img_logo_ft">
-                            <img src="/mobedologo1.png"  width="200px" className="d-inline-block align-top"
-                                alt="React Bootstrap logo"
-                            />
+                        <div class="col-lg-12 col-md-12 col-sm-6 img_logo_ft email_phone">
+                            <div className='row'>
+                                <div className='col-md-3'>
+
+                                </div>
+                                <div className='col-md-5'>
+                                    <img src="/mobedo_f_logo.jpeg" width="200px" className="d-inline-block align-top"
+                                        alt="React Bootstrap logo"
+                                    />
+                                    <h6 className='firm_member'>Member firm of the MOBEDO Group</h6>
+
+                                    <p className='mb-1'>9849813377</p>
+                                    <p className='mb-1'>info@mobedoconsulting.com</p>
+                                </div>
+                            </div>
+
                         </div>
                         <div className='col-lg-5 col-md-12 col-sm-6 email_phone'>
-                            <p className='mb-1'>9849813377</p>
-                            <p className='mb-1'>info@mobedoconsulting.com</p>
+
                         </div>
-                        <p className='firm_member'>Member firm of the MOBEDO Group</p>
 
                     </div>
                 </div>
@@ -65,24 +75,27 @@ export default function footer() {
                                     Industries
                                 </h5>
                                 <ul className='links_ul'>
-                                    <li>
-                                        Healthcare Lifesciences
-                                    </li>
+                                    
                                     <li>
                                         BFSI
+                                    </li>
+                                    <li>
+                                        Public Sector
+                                    </li>
+                                   
+                                    <li>
+                                        Manufacturing
                                     </li>
                                     <li>
                                         Consumer & Retail
                                     </li>
                                     <li>
-                                        Manufacturing
-                                    </li>
-                                    <li>
                                         Travel & Hospitality
                                     </li>
                                     <li>
-                                        Public Sector
+                                        Healthcare Lifesciences
                                     </li>
+                                    
                                 </ul>
                             </div>
                         </div>
@@ -107,11 +120,6 @@ export default function footer() {
                                             Our Core Team
                                         </Link>
                                     </li>
-                                    <li>
-                                        <Link to='/about/#partofus'>
-                                            Be Part of us
-                                        </Link>
-                                    </li>
                                 </ul>
                             </div>
                         </div>
@@ -121,7 +129,7 @@ export default function footer() {
             <div className='row line_above'>
                 <div className='col-md-6'>
                     <ul className='privacy_policy'>
-                        <li>© {(new Date().getFullYear())} MOBEDO Consulting </li>
+                        <li>© {(new Date().getFullYear())} MOBEDO Consulting  Developed by Ekhie Digital</li>
                         <li className='under_line' > <Link className='under_line' to='/privacypolicy' > Privacy Policy</Link></li>
                         {/* <li className='under_line'>General Conditions</li> */}
                     </ul>

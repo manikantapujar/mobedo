@@ -18,7 +18,7 @@ const AboutPage = () => {
       <Container fluid className="maincontainer font startegy_page" >
         <img src="/p31.png" alt="" />
         <h1 className="p_h_title">The MOBEDO Story</h1>
-        <Row className="row_content mt-0 padding_content" id="story">
+        <Row className="row_content padding_content" id="story">
 
           <Col>
             <div className="">
@@ -40,7 +40,7 @@ const AboutPage = () => {
         </Row>
         <img src="/p32.png" alt="" />
         <h1 className="p_h_title">What Guides us - Our Essence </h1>
-        <Row className="row_content mt-0 padding_content" id="guides">
+        <Row className="row_content padding_content" id="guides">
 
           <Col>
             <div className="mission_vision">

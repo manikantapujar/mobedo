@@ -24,16 +24,16 @@ export default function contact() {
                         <Form>
                             <Form.Group className="mb-3" controlId="formBasicEmail">
                                 <Form.Label><strong>Name</strong> </Form.Label>
-                                <Form.Control type='Name' placeholder='What is your  Name' />
+                                <Form.Control type='Name' placeholder='What is your name?' />
                                 <Form.Label><strong>Email</strong>  </Form.Label>
-                                <Form.Control type="email" placeholder="What is your  email" />
+                                <Form.Control type="email" placeholder="What is your email?" />
                                 <Form.Label> <strong>Phone</strong>  </Form.Label>
                                 <Form.Control type="number" placeholder="Can we call you?" />
                                 <Form.Label> <strong>Comments</strong> </Form.Label>
                                 <Form.Control type="text" placeholder="What can we do for you?" />
                             </Form.Group>
                             <Link to="contact">
-                                <Button variant="outline-primary">Send Away</Button>{' '}
+                                <Button variant="outline-primary" className='btn-warning btn_margin_cont'>Send Away</Button>{' '}
                             </Link>
                         </Form>
                     </Col>

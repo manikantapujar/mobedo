@@ -17,14 +17,29 @@ export default function careers() {
             <Navbar />
             <Container fluid className=''>
                 <Row>
-                <img src="/p41.jpeg" alt="" />
+                    <img src="/p41.jpeg" alt="" />
 
                 </Row>
+                <Row className="padding_content align-self-center">
 
-                <Row className="padding_content">
+                    <Col className="align-self-center">
+                        <div md={4} sm={12} className="col_side_heading   text-center">
+                            <p className="harmo_color mb-0">Be a part of us .</p>
+                        </div>
+                    </Col>
+                    <Col md={8} sm={12} className="col_side_content">
+                        <p className="mb-0">We aim to create a welcoming and comfortable workplace that
+                            promotes integration and synergy. Our values focus on providing an
+                            engaging and enlightening environment that drives impact. Join our
+                            ambitious and happy team to access the benefits of a better
+                            workspace. </p>
+
+                    </Col>
+                </Row>
+                {/* <Row className="padding_content">
                     <Col sm={12}>
                         <div className="col_side_heading">
-                            <p className="harmo_color">Be a part of us</p>
+                            <p className="harmo_color"></p>
                         </div>
                     </Col>
                     <Col className="col_side_content" sm={12}>
@@ -33,25 +48,27 @@ export default function careers() {
                             engaging and enlightening environment that drives impact. Join our
                             ambitious and happy team to access the benefits of a better
                             workspace. </p>
-                        <p>Fill out your information below and we will get in touch with you</p>
                     </Col>
+                    
 
-                </Row>
-                <div className='row mb-3 padding_content'>
-                    <div className='col-md-6 col-sm-12'>
+                </Row> */}
+                <div className='row padding_content'>
+                    <div className='col-md-7 col-sm-12'>
+                        <p className='form_p_size'>Fill out your information below and we will get in touch with you</p>
+
                         <Form>
                             <Form.Group className="mb-3" controlId="formBasicEmail">
                                 <Form.Label><strong>Name <span className='asteristk'>*</span></strong> </Form.Label>
-                                <Form.Control type='Name' placeholder='What is your  Name' />
+                                <Form.Control type='Name' placeholder='What is your name?' />
                                 <Form.Label><strong>Email <span className='asteristk'>*</span></strong>  </Form.Label>
-                                <Form.Control type="email" placeholder="What is your  email" />
+                                <Form.Control type="email" placeholder="What is your email?" />
                                 <Form.Label> <strong>Phone <span className='asteristk'>*</span></strong>  </Form.Label>
                                 <Form.Control type="number" placeholder="Can we call you?" />
                                 <Form.Label for="myfile"><strong> Resume <span className='asteristk'>*</span></strong></Form.Label>
                                 <Form.Control className='' type="file" id="myfile" name="myfile" multiple></Form.Control>
                             </Form.Group>
-                            <Link to="contact">
-                                <Button className='btn-warning'>Submit</Button>{' '}
+                            <Link to="contact " className=''>
+                                <Button className='btn-warning btn_margin'>Submit</Button>{' '}
                             </Link>
                         </Form>
                     </div>
