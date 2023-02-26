@@ -25,7 +25,7 @@ export default function index() {
           </Col>
           <Col className="align-self-center">
             <div md={4} sm={12} className="col_side_heading   text-center">
-              <p  className="being_cont mb-0">BEING TO BECOMING The <span> MOBEDO</span> Promise .</p>
+              <p  className="being_cont mb-0">BEING TO BECOMING The <span> MOBEDO</span> Promise.</p>
             </div>
           </Col>
         </Row>
