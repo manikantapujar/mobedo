@@ -139,7 +139,7 @@ const AboutPage = () => {
             <h5>Gaurav Bhaskar</h5>
             <p>Partner – Data Services and Analytics</p>
           </div>
-          <div className="col-md-3">
+          <div className="col-md-3 text-center">
             <div className="img_row_team">
               <img src="/t4.jpg" alt="" />
             </div>

@@ -764,10 +764,26 @@ li{
         margin-top: 0px !important;
 margin-bottom: 10px;
     }.startegy_page h6{
-        font-size: 13px;
+        font-size: 16px;
     }
-
-
+    .privacy_policy{
+        text-align: center;
+    }
+    .privacy_policy li{
+        text-align: center;
+    }
+    .btn_nav_list{
+        padding-left: 0px !important;
+    }
+    .col_bg_1,.col_bg_2,.col_bg_3,.col_bg_4,.col_bg_5,.col_bg_6{
+        padding: 10px;
+    }
+    .links{
+        margin-top: 10px;
+    }
+    .under_line{
+        margin-bottom: 10px !important;
+    }
     .head {
         text-align: center;
         margin-top: 15px !important;

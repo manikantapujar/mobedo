@@ -61,13 +61,13 @@ function Navitem() {
                         <NavDropdown.Item><Link to='/strategy/#st_four'> Innovation Strategy</Link></NavDropdown.Item>
                         <NavDropdown.Item ><Link to='/strategy/#st_five'>Business Strategy Development</Link></NavDropdown.Item>
                       </div>
-                      <div className='mobile_view'>
+                      {/* <div className='mobile_view'>
                         <NavDropdown.Item><Link to='/strategy/#st_one_m'> Core Business Transformation</Link></NavDropdown.Item>
                         <NavDropdown.Item ><Link to='/strategy/#st_two_m'>Branding, Positioning & Messaging</Link></NavDropdown.Item>
                         <NavDropdown.Item><Link to='/strategy/#st_three_m'>Marketing & Go-To-Market Strategy</Link></NavDropdown.Item>
                         <NavDropdown.Item><Link to='/strategy/#st_four_m'> Innovation Strategy</Link></NavDropdown.Item>
                         <NavDropdown.Item ><Link to='/strategy/#st_five_m'>Business Strategy Development</Link></NavDropdown.Item>
-                      </div>
+                      </div> */}
                     </div>
                   </div>
                   <div className='dropdown-new-two'>
@@ -84,14 +84,14 @@ function Navitem() {
                         <NavDropdown.Item ><Link to='/technology/#t_five'>UI/UX Strategy & Design</Link></NavDropdown.Item>
                         <NavDropdown.Item ><Link to='/technology/#t_six'>Metaverse</Link></NavDropdown.Item>
                       </div>
-                      <div className='mobile_view'>
+                      {/* <div className='mobile_view'>
                         <NavDropdown.Item><Link to='/technology/#t_one_m'> Enterprise Applications</Link></NavDropdown.Item>
                         <NavDropdown.Item ><Link to='/technology/#t_two_m'>Technology Solutions Delivery</Link></NavDropdown.Item>
                         <NavDropdown.Item><Link to='/technology/#t_three_m'>WEB3</Link></NavDropdown.Item>
                         <NavDropdown.Item><Link to='/technology/#t_four_m'> CyberSecurity Services</Link></NavDropdown.Item>
                         <NavDropdown.Item ><Link to='/technology/#t_five_m'>UI/UX Strategy & Design</Link></NavDropdown.Item>
                         <NavDropdown.Item ><Link to='/technology/#t_six_m'>Metaverse</Link></NavDropdown.Item>
-                      </div>
+                      </div> */}
                     </div>
                   </div>
                   <div className='dropdown-new-three'>
@@ -109,7 +109,7 @@ function Navitem() {
                         <NavDropdown.Item ><Link to='/digital_transformation/#dg_six'>Digital Marketing</Link></NavDropdown.Item>
                       </div>
                     </div>
-                    <div className='mobile_view'>
+                    {/* <div className='mobile_view'>
                       <div className="dropdown-content-new-three" id="collasible-nav-dropdown-new-three">
                         <NavDropdown.Item><Link to='/digital_transformation/#dg_one_m'> Digital Strategy Development</Link></NavDropdown.Item>
                         <NavDropdown.Item ><Link to='/digital_transformation/#dg_two_m'>Data Science and Analytics</Link></NavDropdown.Item>
@@ -118,7 +118,7 @@ function Navitem() {
                         <NavDropdown.Item ><Link to='/digital_transformation/#dg_five_m'>Mobility</Link></NavDropdown.Item>
                         <NavDropdown.Item ><Link to='/digital_transformation/#dg_six_m'>Digital Marketing</Link></NavDropdown.Item>
                       </div>
-                    </div>
+                    </div> */}
                   </div>
                   <div className='dropdown-new-four'>
                     <Link to='/shared_services'>
@@ -133,14 +133,14 @@ function Navitem() {
                         <NavDropdown.Item><Link to='/shared_services/#sh_four'>Testing as a Service</Link></NavDropdown.Item>
                       </div>
                     </div>
-                    <div className='mobile_view'>
+                    {/* <div className='mobile_view'>
                       <div className="dropdown-content-new-four" id="collasible-nav-dropdown-new-four">
                         <NavDropdown.Item><Link to='/shared_services/#sh_one_m'> Co-Founder as a Service</Link></NavDropdown.Item>
                         <NavDropdown.Item ><Link to='/shared_services/#sh_two_m'>MVP as a Service</Link></NavDropdown.Item>
                         <NavDropdown.Item><Link to='/shared_services/#sh_three_m'>Innovation as a Service</Link></NavDropdown.Item>
                         <NavDropdown.Item><Link to='/shared_services/#sh_four_m'>Testing as a Service</Link></NavDropdown.Item>
                       </div>
-                    </div>
+                    </div> */}
 
                   </div>
 
