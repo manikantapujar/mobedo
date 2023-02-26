@@ -705,6 +705,7 @@ padding:0px  80px 10px;
     }
     .btn_nav_list{
         padding-bottom: 10px !important;
+        padding-top: 10px !important;
     }
     .socialmediaicons{
         float: none;
@@ -772,9 +773,7 @@ margin-bottom: 10px;
     .privacy_policy li{
         text-align: center;
     }
-    .btn_nav_list{
-        padding-left: 0px !important;
-    }
+  
     .col_bg_1,.col_bg_2,.col_bg_3,.col_bg_4,.col_bg_5,.col_bg_6{
         padding: 10px;
     }
@@ -896,7 +895,9 @@ margin-bottom: 10px;
     .contactpage {
         margin-top: 10px;
     }
-
+    .navlist.btn_nav_list.navbar-nav{
+        padding: 10px 0px 0px 0px !important;
+    }
     /* contactpage css mobile view end*/
     .dropdown-content-new {
         position: absolute;
@@ -944,9 +945,12 @@ a {
     padding: 0px 30px;
 }
 .btn_nav_list{
-    padding: 10px 0px 0px 15px!important;
+    padding: 10px 0px 0px 15px;
 }
+.navlist.btn_nav_list.navbar-nav{
+    padding: 10px 0px 0px 15px;
 
+}
 .logo {
     color: white;
     /* height: 100px;
