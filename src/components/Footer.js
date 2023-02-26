@@ -20,13 +20,13 @@ export default function footer() {
                                 <div className='col-md-3'>
 
                                 </div>
-                                <div className='col-md-5'>
+                                <div className='col-md-5 text-center'>
                                     <img src="/mobedo_f_logo.jpeg" width="200px" className="d-inline-block align-top"
                                         alt="React Bootstrap logo"
                                     />
                                     <h6 className='firm_member'>Member firm of the MOBEDO Group</h6>
 
-                                    <p className='mb-1'>9849813377</p>
+                                    {/* <p className='mb-1'>9849813377</p> */}
                                     <p className='mb-1'>info@mobedoconsulting.com</p>
                                 </div>
                             </div>
@@ -47,7 +47,7 @@ export default function footer() {
                                 </h5>
                                 <ul className='links_ul'>
                                     <li>
-                                        <Link to='/starategy'>
+                                        <Link to='/strategy'>
                                             Strategy Practice
                                         </Link>
                                     </li>
@@ -127,14 +127,14 @@ export default function footer() {
                 </div>
             </div>
             <div className='row line_above'>
-                <div className='col-md-6'>
-                    <ul className='privacy_policy'>
-                        <li>© {(new Date().getFullYear())} MOBEDO Consulting  Developed by Ekhie Digital</li>
-                        <li className='under_line' > <Link className='under_line' to='/privacypolicy' > Privacy Policy</Link></li>
+                <div className='col-md-6 align-self-center'>
+                    <ul className='privacy_policy mb-0'>
+                        <li className='mb-0'>© {(new Date().getFullYear())} MOBEDO Consulting  Developed by Ekhie Digital</li>
+                        <li className='under_line mb-0' > <Link className='under_line' to='/privacypolicy' > Privacy Policy</Link></li>
                         {/* <li className='under_line'>General Conditions</li> */}
                     </ul>
                 </div>
-                <div className='col-md-6 text-end'>
+                <div className='col-md-6 text-end align-self-center'>
                     <ul className='socialmediaicons'>
                         <li>
                             <div>

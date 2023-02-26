@@ -89,7 +89,7 @@ input[type=number] {
     font-family: poppins;
 }
 .navbar{
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 6rem;
 }
 .navbar{
     /* padding: 0.5rem 1rem; */
@@ -578,11 +578,12 @@ h5.our_team {
     font-size: 16px;
     border: none;
     outline: none;
-    color: #0000008c;
+    color: #000;
     padding: 10px 16px;
     background-color: inherit;
     font-family: inherit;
     margin: 0;
+    font-weight: 600;
 }
 
 .dropdown:hover .dropbtn {
@@ -916,7 +917,7 @@ a {
     padding: 0px 30px;
 }
 .btn_nav_list{
-    padding: 10px 0px 0px !important;
+    padding: 10px 0px 0px 15px!important;
 }
 
 .logo {
@@ -925,6 +926,9 @@ a {
     width: 150px; */
     font-size: 40px;
     font-weight: 700;
+}
+.col_side_heading p{
+    line-height: 1.2;
 }
 .firm_member{
     color: #fff;
@@ -940,6 +944,8 @@ a {
 
 .navlist {
     padding: 10px 15px;
+    font-weight: 600;
+    color: #000;
 }
 
 #collasible-nav-dropdown {

@@ -50,18 +50,18 @@ function Navitem() {
                     <li className="dropbtn navlist">Strategy</li>
                     <div className="dropdown-content-new" id="collasible-nav-dropdown-new">
                       <div className='desktop_view'>
-                        <NavDropdown.Item><Link to='/starategy/#st_one'> Core Business Transformation</Link></NavDropdown.Item>
-                        <NavDropdown.Item ><Link to='/starategy/#st_two'>Branding, Positioning & Messaging</Link></NavDropdown.Item>
-                        <NavDropdown.Item><Link to='/starategy/#st_three'>Marketing & Go-To-Market Strategy</Link></NavDropdown.Item>
-                        <NavDropdown.Item><Link to='/starategy/#st_four'> Innovation Strategy</Link></NavDropdown.Item>
-                        <NavDropdown.Item ><Link to='/starategy/#st_five'>Business Strategy Development</Link></NavDropdown.Item>
+                        <NavDropdown.Item><Link to='/strategy/#st_one'> Core Business Transformation</Link></NavDropdown.Item>
+                        <NavDropdown.Item ><Link to='/strategy/#st_two'>Branding, Positioning & Messaging</Link></NavDropdown.Item>
+                        <NavDropdown.Item><Link to='/strategy/#st_three'>Marketing & Go-To-Market Strategy</Link></NavDropdown.Item>
+                        <NavDropdown.Item><Link to='/strategy/#st_four'> Innovation Strategy</Link></NavDropdown.Item>
+                        <NavDropdown.Item ><Link to='/strategy/#st_five'>Business Strategy Development</Link></NavDropdown.Item>
                       </div>
                       <div className='mobile_view'>
-                        <NavDropdown.Item><Link to='/starategy/#st_one_m'> Core Business Transformation</Link></NavDropdown.Item>
-                        <NavDropdown.Item ><Link to='/starategy/#st_two_m'>Branding, Positioning & Messaging</Link></NavDropdown.Item>
-                        <NavDropdown.Item><Link to='/starategy/#st_three_m'>Marketing & Go-To-Market Strategy</Link></NavDropdown.Item>
-                        <NavDropdown.Item><Link to='/starategy/#st_four_m'> Innovation Strategy</Link></NavDropdown.Item>
-                        <NavDropdown.Item ><Link to='/starategy/#st_five_m'>Business Strategy Development</Link></NavDropdown.Item>
+                        <NavDropdown.Item><Link to='/strategy/#st_one_m'> Core Business Transformation</Link></NavDropdown.Item>
+                        <NavDropdown.Item ><Link to='/strategy/#st_two_m'>Branding, Positioning & Messaging</Link></NavDropdown.Item>
+                        <NavDropdown.Item><Link to='/strategy/#st_three_m'>Marketing & Go-To-Market Strategy</Link></NavDropdown.Item>
+                        <NavDropdown.Item><Link to='/strategy/#st_four_m'> Innovation Strategy</Link></NavDropdown.Item>
+                        <NavDropdown.Item ><Link to='/strategy/#st_five_m'>Business Strategy Development</Link></NavDropdown.Item>
                       </div>
                     </div>
                   </div>

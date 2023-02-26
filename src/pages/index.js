@@ -30,7 +30,7 @@ export default function index() {
           </Col>
         </Row>
         <div className="row  margin-top-minus mb-4">
-          <div className="col-md-6">
+          <div className="col-md-8 col-sm-12">
           <div className="text-center ">
             <Link to="about"><Button className="button btn-warning">About us</Button>{' '}</Link>
             </div>
