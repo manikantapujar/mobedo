@@ -781,6 +781,9 @@ margin-bottom: 10px;
     .links{
         margin-top: 10px;
     }
+    .privacy_policy li{
+        margin-right: 0px !important;
+    }
     .under_line{
         margin-bottom: 10px !important;
     }
