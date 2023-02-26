@@ -133,7 +133,7 @@ input[type=number] {
     margin-top: -25px;
 }
 li{
-    font-size: 20px;
+    font-size: 26px;
 }
 .align-self-center p{
     /* font-size: 20px; */
@@ -454,6 +454,7 @@ h5.our_team {
 .core_team h5, .our_team h5 {
     color: #92d050;
     font-weight: 700;
+    margin-top: 15px;
 }
 .harmo_color{
     color: #92d050;

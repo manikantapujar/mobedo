@@ -117,14 +117,14 @@ const AboutPage = () => {
         </Row>
         <h5 className="our_team   padding_content mt-3">Our Team</h5>
         <div className="row core_team padding_content">
-          <div className="col-md-3">
+          <div className="col-md-3 text-center">
             <div className="img_row_team">
               <img src="/t1.jpg" alt="" />
             </div>
             <h5>Anup Puthan</h5>
             <p>Partner  – Consulting </p>
           </div>
-          <div className="col-md-3">
+          <div className="col-md-3 text-center">
             <div className="img_row_team">
               <img src="/t2.jpg" alt="" />
             </div>
@@ -132,7 +132,7 @@ const AboutPage = () => {
             <p>Partner – Operations and Client Engagement</p>
 
           </div>
-          <div className="col-md-3">
+          <div className="col-md-3 text-center">
             <div className="img_row_team">
               <img src="/t3.jpg" alt="" />
             </div>
