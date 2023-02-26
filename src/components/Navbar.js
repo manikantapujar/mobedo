@@ -47,7 +47,12 @@ function Navitem() {
                 </button>
                 <div className="dropdown-content" id="collasible-nav-dropdown">
                   <div className='dropdown-new'>
-                    <li className="dropbtn navlist">Strategy</li>
+                    
+                    {/* <li className="dropbtn navlist">Strategy</li> */}
+                    
+                    <Link to='/strategy'>
+                      Strategy
+                    </Link>
                     <div className="dropdown-content-new" id="collasible-nav-dropdown-new">
                       <div className='desktop_view'>
                         <NavDropdown.Item><Link to='/strategy/#st_one'> Core Business Transformation</Link></NavDropdown.Item>
@@ -66,7 +71,10 @@ function Navitem() {
                     </div>
                   </div>
                   <div className='dropdown-new-two'>
-                    <li className="dropbtn navlist">Technology</li>
+                    {/* <li className="dropbtn navlist">Technology</li> */}
+                    <Link to='/technology'>
+                     Technology
+                    </Link>
                     <div className="dropdown-content-new-two" id="collasible-nav-dropdown-new-two">
                       <div className='desktop_view'>
                         <NavDropdown.Item><Link to='/technology/#t_one'> Enterprise Applications</Link></NavDropdown.Item>
@@ -87,7 +95,10 @@ function Navitem() {
                     </div>
                   </div>
                   <div className='dropdown-new-three'>
-                    <li className="dropbtn navlist">Digital Transformation</li>
+                    <Link to='/digital_transformation/'>
+                    Digital Transformation
+                    </Link>
+                    {/* <li className="dropbtn navlist">Digital Transformation</li> */}
                     <div className='desktop_view'>
                       <div className="dropdown-content-new-three" id="collasible-nav-dropdown-new-three">
                         <NavDropdown.Item><Link to='/digital_transformation/#dg_one'> Digital Strategy Development</Link></NavDropdown.Item>
@@ -110,7 +121,10 @@ function Navitem() {
                     </div>
                   </div>
                   <div className='dropdown-new-four'>
-                    <li className="dropbtn navlist">Shared Services</li>
+                    <Link to='/shared_services'>
+                    Shared Services
+                    </Link>
+                    {/* <li className="dropbtn navlist">Shared Services</li> */}
                     <div className='desktop_view'>
                       <div className="dropdown-content-new-four" id="collasible-nav-dropdown-new-four">
                         <NavDropdown.Item><Link to='/shared_services/#sh_one'> Co-Founder as Service</Link></NavDropdown.Item>
