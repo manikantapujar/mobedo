@@ -21,7 +21,7 @@ export default function footer() {
 
                                 </div>
                                 <div className='col-md-5 text-center'>
-                                    <img src="/mobedo_f_logo.jpeg" width="200px" className="d-inline-block align-top"
+                                    <img src="/mobedo_f_logo.png" width="200px" className="d-inline-block align-top"
                                         alt="React Bootstrap logo"
                                     />
                                     <h6 className='firm_member'>Member firm of the MOBEDO Group</h6>
@@ -138,12 +138,12 @@ export default function footer() {
                     <ul className='socialmediaicons'>
                         <li>
                             <div>
-                                <a href="https://www.facebook.com/profile.php?id=100083091289444&mibextid=ZbWKwL" target="_blank"><img src="/fb2.png" alt="" /></a>
+                                <a href="https://www.facebook.com/profile.php?id=100083091289444&mibextid=ZbWKwL" target="_blank"><img src="/fb.png" alt="" /></a>
                             </div>
                         </li>
                         <li>
                             <div>
-                                <a href="https://www.linkedin.com/in/mobedo-consulting-8450ba239" target="_blank"><img src="/linkedin.png" alt="" /></a>
+                                <a href="https://www.linkedin.com/in/mobedo-consulting-8450ba239" target="_blank"><img src="/linked.png" alt="" /></a>
                             </div>
                         </li>
                         <li>
@@ -153,7 +153,7 @@ export default function footer() {
                         </li>
                         <li>
                             <div>
-                                <img src="/youtube1.png" alt="" />
+                                <img src="/insta.png" alt="" />
                             </div>
                         </li>
                     </ul>

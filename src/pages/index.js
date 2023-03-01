@@ -55,12 +55,12 @@ export default function index() {
         <img src="/p3.png" alt="" />
         <h2 className="p_h_title">Our Practice Areas</h2>
         <Row className="row_content padding_content">
-          <Col sm={12} className="align-self-center ">
+          <Col md={6} sm={12} className="align-self-center ">
             <div className="col_side_heading text-center">
               <p className="harmo_color">Harmonious Solutions.</p>
             </div>
           </Col>
-          <Col sm={12} className="col_side_content align-self-center ">
+          <Col md={6} sm={12} className="col_side_content align-self-center ">
             <p>There is an unusual coordination between entities of different types. The emergent is distinct from its component parts and cannot be reduced to the mere sum or difference of these parts. </p>
           </Col>
 
