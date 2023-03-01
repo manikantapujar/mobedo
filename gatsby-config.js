@@ -1,12 +1,12 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `Mobedo Consulting`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `Mobedo`,
+      summary: `Mobedo Consulting for it solution.`,
     },
     description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
+    siteUrl: `https://mobedoconsulting.com`,
     social: {
       twitter: `kylemathews`,
     },
@@ -89,7 +89,7 @@ module.exports = {
                 title
                 description
                 siteUrl
-                site_url: siteUrl
+                site_url: Mobedo Consulting
               }
             }
           }
