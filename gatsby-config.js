@@ -89,7 +89,7 @@ module.exports = {
                 title
                 description
                 siteUrl
-                site_url: Mobedo Consulting
+                site_url: siteUrl
               }
             }
           }
