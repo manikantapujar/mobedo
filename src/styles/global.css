@@ -32,7 +32,8 @@ p,h1,h2,h3,h4,h6,li,a,button{
     /* text-align: end; */
     width: fit-content;
     float: right;
-    background: #726a6a;
+    /* background: #726a6a; */
+    background: #f7f6f6;
     padding: 10px;
     border-radius: 8px;
     margin-bottom: 0px;

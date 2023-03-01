@@ -148,7 +148,7 @@ export default function footer() {
                         </li>
                         <li>
                             <div>
-                                <img src="/twitter.png" alt="" />
+                                <img src="/twitter1.png" alt="" />
                             </div>
                         </li>
                         <li>
@@ -159,12 +159,6 @@ export default function footer() {
                     </ul>
                 </div>
             </div>
-
-
-
         </div>
-
-
-
     )
 }
