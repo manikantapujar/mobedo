@@ -138,22 +138,22 @@ export default function footer() {
                     <ul className='socialmediaicons'>
                         <li>
                             <div>
-                                <a href="https://www.facebook.com/profile.php?id=100083091289444&mibextid=ZbWKwL" target="_blank"><img src="/fb.png" alt="" /></a>
+                                <a href="https://www.facebook.com/profile.php?id=100083091289444&mibextid=ZbWKwL" target="_blank"><img src="/fb2.png" alt="" /></a>
                             </div>
                         </li>
                         <li>
                             <div>
-                                <a href="https://www.linkedin.com/in/mobedo-consulting-8450ba239" target="_blank"><img src="/linked.png" alt="" /></a>
+                                <a href="https://www.linkedin.com/in/mobedo-consulting-8450ba239" target="_blank"><img src="/linked2.png" alt="" /></a>
                             </div>
                         </li>
                         <li>
                             <div>
-                                <img src="/twitter1.png" alt="" />
+                                <img src="/twitter2.png" alt="" />
                             </div>
                         </li>
                         <li>
                             <div>
-                                <img src="/insta.png" alt="" />
+                                <img src="/insta2.png" alt="" />
                             </div>
                         </li>
                     </ul>
