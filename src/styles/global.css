@@ -449,7 +449,7 @@ li {
 }
 
 .startegy_page img {
-    width: 92%;
+    width: 100%;
 }
 
 .homepage img {
@@ -479,6 +479,7 @@ li {
 .img_row_team img {
     margin-left: 20px;
     height: 200px;
+    width: 92%;
 }
 
 h5.our_team {
