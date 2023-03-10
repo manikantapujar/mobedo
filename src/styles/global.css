@@ -468,18 +468,20 @@ li {
 }
 
 .img_row_team {
-    background: #0047ab;
-    margin-right: 15px;
+    /* background: #0047ab;
+    margin-right: 15px; */
 }
 
 .img_row_team h5 {
     color: #92d050;
 }
 
+
 .img_row_team img {
-    margin-left: 20px;
-    height: 200px;
-    width: 92%;
+    /* margin-left: 20px; */
+    height: 170px;
+    width: 70%;
+    border-left: 30px solid #0047ab;
 }
 
 h5.our_team {
@@ -754,8 +756,14 @@ h5.our_team {
 }
 
 @media(max-width:767px) {
+    .mb-text-center{
+        text-align: center;
+    }
     .col_content {
         font-size: 20px;
+    }
+    .mobile_view .align-self-center h2,.mobile_view .align-self-center h6,.mobile_view .align-self-center p{
+        text-align: center;
     }
 
     .mt-4 {

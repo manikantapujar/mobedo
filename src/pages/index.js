@@ -44,7 +44,7 @@ export default function index() {
         <h2 className="p_h_title">Our Proposition</h2>
         <Row className="row_content padding_content">
 
-          <ul className="mb-0">
+          <ul className="mb-0 mb-text-center">
             <li>A <b> consecrated dedication</b> to working alongside our clients on their technology, strategy, and innovation needs</li>
             <li>A multidisciplinary team that goes a long way back with <b> mutual respect </b> for each other and with a balanced depth of expertise and experience that complements each others skills well</li>
             <li>A strategic ally for driving growth through innovative and data-driven solutions. We <b>break-free </b>from traditional consulting methods to unleash our clients' full potential</li>

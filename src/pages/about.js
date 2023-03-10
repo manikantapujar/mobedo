@@ -21,7 +21,7 @@ const AboutPage = () => {
         <Row className="row_content padding_content" id="story">
 
           <Col>
-            <div className="">
+            <div className="mb-text-center">
               <ul>
                 <li>
                   <b> MOBEDO Consulting </b> was conceptualized as a response to our conversations with SME and Startup founders during the COVID pandemic. An unplanned, unexpected event that left every organism and organization unsure.
@@ -43,7 +43,7 @@ const AboutPage = () => {
         <Row className="row_content padding_content" id="guides">
 
           <Col>
-            <div className="mission_vision">
+            <div className="mission_vision mb-text-center">
               <ul>
                 <li> <span> Mission </span>: We continually strive to <b> DO MORE</b>, so our clients, our people and society can <b> BE MORE</b>.</li>
                 <li><span>Vision </span> : To be recognized as a trusted and efficient partner to our clients and, craft long standing relationships, while maintaining uncompromising principles as we grow.</li>
@@ -108,7 +108,7 @@ const AboutPage = () => {
         <Row className="row_content padding_content" id="coreteam">
          
           <Col>
-            <div className="">
+            <div className="mb-text-center">
               <ul>
                 <li> We are industry experts passionate about making an impact. We are also devoted to working collaboratively with our clients and partners to ensure you are always ahead of the curve.</li>
               </ul>

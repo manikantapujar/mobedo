@@ -71,10 +71,10 @@ export default function sharedservices() {
 
                 <div className="mobile_view">
                     <div className="row mt-3" id="sh_one_m">
-                        <div className="col-md-6">
+                        <div className="col-md-6 align-self-center">
                             <img src="/p21.png" alt="" />
                         </div>
-                        <div className="col-md-6">
+                        <div className="col-md-6 align-self-center">
                             <h2 className="col_side_heading">Co-Founder as a Service</h2>
                             {/* <h6>Innovating for growth, transforming for success</h6> */}
                             <p>Our team of experts has a proven track record of helping startups succeed. We offer market research, business plan development, financial modeling, and operational support to help you validate your idea, secure funding, and scale your business. Let us use our expertise and resources to help you achieve your goals. </p>
@@ -82,10 +82,10 @@ export default function sharedservices() {
 
                     </div>
                     <div className="row mt-3" id="sh_two_m">
-                        <div className="col-md-6">
+                        <div className="col-md-6 align-self-center">
                             <img src="/p22.png" alt="" />
                         </div>
-                        <div className="col-md-6">
+                        <div className="col-md-6 align-self-center">
                             <h2 className="col_side_heading">MVP as a Service</h2>
                             {/* <h6>Defining your brand, communicating your value</h6> */}
                             <p>Minimize risk and cost while gaining valuable market insights by developing and testing an MVP with our team of experts. We'll help you define and build a minimum viable product that accurately represents your idea and provide feedback and guidance to iterate and improve based on real data and customer feedback.</p>
@@ -93,20 +93,20 @@ export default function sharedservices() {
 
                     </div>
                     <div className="row mt-3" id="sh_three_m">
-                        <div className="col-md-6">
+                        <div className="col-md-6 align-self-center">
                             <img src="/p23.png" alt="" />
                         </div>
-                        <div className="col-md-6">
+                        <div className="col-md-6 align-self-center">
                             <h2 className="col_side_heading">Innovation as a Service</h2>
                             {/* <h6>Bringing your value to market, driving growth through strategy </h6> */}
                             <p>Stay ahead of the competition with our innovation as a service offering. Our team of experts provides access to the tools, resources, and expertise you need to drive continuous innovation and growth. We'll help you identify opportunities, develop and test new ideas, and implement successful innovation programs that drive business value and competitive advantage.</p>
                         </div>
                     </div>
                     <div className="row mt-3" id="sh_four_m">
-                        <div className="col-md-6">
+                        <div className="col-md-6 align-self-center">
                             <img src="/p24.png" alt="" />
                         </div>
-                        <div className="col-md-6">
+                        <div className="col-md-6 align-self-center">
                             <h2 className="col_side_heading">Testing as a Service</h2>
                             {/* <h6>Innovating for tomorrow, leading the way today </h6> */}
                             <p>Ensure the quality and reliability of your products and systems with our testing as a service offering. Our team of experts provides a range of testing services, including functional, performance, and security testing. We'll help you define and implement a comprehensive testing strategy that meets your needs and ensures your products are ready for market.</p>

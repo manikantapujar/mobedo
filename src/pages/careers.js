@@ -17,7 +17,7 @@ export default function careers() {
             <Navbar />
             <Container fluid className=''>
                 <Row>
-                    <img src="/p41.jpeg" alt="" />
+                    <img src="/p42.png" alt="" />
 
                 </Row>
                 <Row className="padding_content align-self-center">
